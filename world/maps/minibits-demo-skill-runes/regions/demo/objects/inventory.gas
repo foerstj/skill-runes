@@ -1,0 +1,53 @@
+[t:skill_rune_melee_10,n:0x00100001]
+{
+	[placement]
+	{
+	  p position = -2.19582,0,-2.26596,0xf0fb4f6c;
+	}
+}
+[t:skill_rune_ranged_10,n:0x00100002]
+{
+	[placement]
+	{
+	  p position = -0.72993,0,-2.38833,0xf0fb4f6c;
+	}
+}
+[t:skill_rune_nmagic_10,n:0x00100003]
+{
+	[placement]
+	{
+	  p position = 1.1826,0,-2.44812,0xf0fb4f6c;
+	}
+}
+[t:skill_rune_cmagic_10,n:0x00100004]
+{
+	[placement]
+	{
+	  p position = 2.60457,0,-2.32738,0xf0fb4f6c;
+	}
+}
+[t:skill_rune_0,n:0x00100006]
+{
+	[placement]
+	{
+	  p position = -1.39919,0.0474836,2.2252,0x15e7e797;
+	}
+}
+[t:skill_rune_drdeath,n:0x00100009]
+{
+	[placement]
+	{
+	  p position = -1.61668,0.020716,-2.0131,0x15e7e797;
+	}
+}
+[t:gold,n:0x0010000a]
+{
+	[aspect]
+	{
+	  i gold_value = 9999999;
+	}
+	[placement]
+	{
+	  p position = -2.06263,-0.299999,0.204639,0x42421e38;
+	}
+}
