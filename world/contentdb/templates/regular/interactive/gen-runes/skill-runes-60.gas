@@ -1,8 +1,10 @@
+// skill runes lvl 60
+
 [t:template,n:skill_rune_melee_60]
 {
 	specializes = base_skill_rune_melee;
 
-    common:screen_name = "Melee Level 60";
+	common:screen_name = "Melee Level 60";
 	[skill_rune]
 	{
 		uber_stat	= 60;
@@ -20,7 +22,7 @@
 {
 	specializes = base_skill_rune_ranged;
 
-    common:screen_name = "Ranged Level 60";
+	common:screen_name = "Ranged Level 60";
 	[skill_rune]
 	{
 		uber_stat	= 60;
@@ -31,14 +33,14 @@
 		int_stat	= 7.80;
 		dex_stat	= 37.20;
 		str_stat	= 15.00;
-	}	
+	}
 }
 
 [t:template,n:skill_rune_cmagic_60]
 {
 	specializes = base_skill_rune_cmagic;
 
-    common:screen_name = "Combat Magic Level 60";
+	common:screen_name = "Combat Magic Level 60";
 	[skill_rune]
 	{
 		uber_stat	= 60;
@@ -56,7 +58,7 @@
 {
 	specializes = base_skill_rune_nmagic;
 
-    common:screen_name = "Nature Magic Level 60";
+	common:screen_name = "Nature Magic Level 60";
 	[skill_rune]
 	{
 		uber_stat	= 60;

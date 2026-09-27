@@ -1,71 +1,29 @@
-[t:template,n:skill_rune_melee_{{lvl}}]
-{
-	specializes = base_skill_rune_melee;
+// skill runes lvl {{lvl}}
+{% set skill_names = {'melee': 'Melee', 'ranged': 'Ranged', 'nmagic': 'Nature Magic', 'cmagic': 'Combat Magic'} %}
+{% set str_parts = {'melee': 0.64, 'ranged': 0.25, 'nmagic': 0.09, 'cmagic': 0.13} %}
+{% set dex_parts = {'melee': 0.27, 'ranged': 0.62, 'nmagic': 0.18, 'cmagic': 0.17} %}
+{% set int_parts = {'melee': 0.09, 'ranged': 0.13, 'nmagic': 0.73, 'cmagic': 0.70} %}
+{% for skill in ['melee', 'ranged', 'cmagic', 'nmagic'] %}
+{% set skill_name = skill_names[skill] %}
+{% set str_part = str_parts[skill] %}
+{% set dex_part = dex_parts[skill] %}
+{% set int_part = int_parts[skill] %}
 
-    common:screen_name = "Melee Level {{lvl}}";
+[t:template,n:skill_rune_{{skill}}_{{lvl}}]
+{
+	specializes = base_skill_rune_{{skill}};
+
+	common:screen_name = "{{skill_name}} Level {{lvl}}";
 	[skill_rune]
 	{
 		uber_stat	= {{lvl}};
-		melee_stat	= {{lvl}};
-		ranged_stat	= 0;
-		cmagic_stat	= 0;
-		nmagic_stat	= 0;
-		int_stat	= {{'%0.2f' % (lvl*0.09)}};
-		dex_stat	= {{'%0.2f' % (lvl*0.27)}};
-		str_stat	= {{'%0.2f' % (lvl*0.64)}};
+		melee_stat	= {{lvl if skill == 'melee' else 0}};
+		ranged_stat	= {{lvl if skill == 'ranged' else 0}};
+		cmagic_stat	= {{lvl if skill == 'cmagic' else 0}};
+		nmagic_stat	= {{lvl if skill == 'nmagic' else 0}};
+		int_stat	= {{'%0.2f' % (lvl*int_part)}};
+		dex_stat	= {{'%0.2f' % (lvl*dex_part)}};
+		str_stat	= {{'%0.2f' % (lvl*str_part)}};
 	}
 }
-
-[t:template,n:skill_rune_ranged_{{lvl}}]
-{
-	specializes = base_skill_rune_ranged;
-
-    common:screen_name = "Ranged Level {{lvl}}";
-	[skill_rune]
-	{
-		uber_stat	= {{lvl}};
-		melee_stat	= 0;
-		ranged_stat	= {{lvl}};
-		cmagic_stat	= 0;
-		nmagic_stat	= 0;
-		int_stat	= {{'%0.2f' % (lvl*0.13)}};
-		dex_stat	= {{'%0.2f' % (lvl*0.62)}};
-		str_stat	= {{'%0.2f' % (lvl*0.25)}};
-	}	
-}
-
-[t:template,n:skill_rune_cmagic_{{lvl}}]
-{
-	specializes = base_skill_rune_cmagic;
-
-    common:screen_name = "Combat Magic Level {{lvl}}";
-	[skill_rune]
-	{
-		uber_stat	= {{lvl}};
-		melee_stat	= 0;
-		ranged_stat	= 0;
-		cmagic_stat	= {{lvl}};
-		nmagic_stat	= 0;
-		int_stat	= {{'%0.2f' % (lvl*0.70)}};
-		dex_stat	= {{'%0.2f' % (lvl*0.17)}};
-		str_stat	= {{'%0.2f' % (lvl*0.13)}};
-	}
-}
-
-[t:template,n:skill_rune_nmagic_{{lvl}}]
-{
-	specializes = base_skill_rune_nmagic;
-
-    common:screen_name = "Nature Magic Level {{lvl}}";
-	[skill_rune]
-	{
-		uber_stat	= {{lvl}};
-		melee_stat	= 0;
-		ranged_stat	= 0;
-		cmagic_stat	= 0;
-		nmagic_stat	= {{lvl}};
-		int_stat	= {{'%0.2f' % (lvl*0.73)}};
-		dex_stat	= {{'%0.2f' % (lvl*0.18)}};
-		str_stat	= {{'%0.2f' % (lvl*0.09)}};
-	}
-}
+{% endfor %}
