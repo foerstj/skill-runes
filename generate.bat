@@ -2,9 +2,9 @@
 set bits=%~dp0.
 
 pushd "%GasPy%"
-venv\Scripts\python -m jinja "world\contentdb\templates.jinja\regular\interactive\skill-runes-{{lvl}}.gas.jinja" world\contentdb\templates\regular\interactive --bits "%bits%"
+venv\Scripts\python -m jinja "world\contentdb\templates.jinja\regular\interactive\skill-runes-{{lvl}}.gas.jinja" world\contentdb\templates\regular\interactive\gen-runes --bits "%bits%"
 if %errorlevel% neq 0 pause
-venv\Scripts\python -m jinja "world\contentdb\templates.jinja\regular\interactive\skill-runes-container-{{lvl}}.gas.jinja" world\contentdb\templates\regular\interactive --bits "%bits%"
+venv\Scripts\python -m jinja "world\contentdb\templates.jinja\regular\interactive\skill-runes-container-{{lvl}}.gas.jinja" world\contentdb\templates\regular\interactive\gen-containers --bits "%bits%"
 if %errorlevel% neq 0 pause
 venv\Scripts\python -m jinja "world\contentdb\templates.jinja\regular\interactive\skill-runes-container-by-skill.gas.jinja" world\contentdb\templates\regular\interactive --for-all "world\contentdb\templates.jinja\regular\interactive\skill-runes-{{lvl}}.gas.csv" --bits "%bits%"
 if %errorlevel% neq 0 pause
