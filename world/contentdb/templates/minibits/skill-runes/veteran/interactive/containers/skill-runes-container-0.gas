@@ -1,4 +1,4 @@
-[t:template,n:2W_skill_runes_container_0]
+[t:template,n:2W_skill_runes_container_mb_0]
 {
     specializes = base_skill_runes_container;
 
