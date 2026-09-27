@@ -26,7 +26,7 @@ robocopy "%bits%\world\maps\%map%" "%tmp%\Bits\world\maps\%map%" /E
 pushd %gaspy%
 setlocal EnableDelayedExpansion
 if "%mode%"=="release" (
-  venv\Scripts\python -m build.add_world_levels %map% --bits "%tmp%\Bits" --template-bits "%bits%" --template-base original
+  venv\Scripts\python -m build.add_world_levels %map% --bits "%tmp%\Bits" --template-bits "%bits%"
   set add_world_levels_errorlevel=!errorlevel!
   if !add_world_levels_errorlevel! neq 0 pause
 )
