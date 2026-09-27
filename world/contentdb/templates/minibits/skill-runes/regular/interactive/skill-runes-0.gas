@@ -1,0 +1,71 @@
+[t:template,n:skill_rune_melee_0]
+{
+	specializes = base_skill_rune_melee;
+
+    common:screen_name = "Melee Level 0";
+	[skill_rune]
+	{
+		uber_stat	= 0;
+		melee_stat	= 0;
+		ranged_stat	= 0;
+		cmagic_stat	= 0;
+		nmagic_stat	= 0;
+		int_stat	= 0.00;
+		dex_stat	= 0.00;
+		str_stat	= 0.00;
+	}
+}
+
+[t:template,n:skill_rune_ranged_0]
+{
+	specializes = base_skill_rune_ranged;
+
+    common:screen_name = "Ranged Level 0";
+	[skill_rune]
+	{
+		uber_stat	= 0;
+		melee_stat	= 0;
+		ranged_stat	= 0;
+		cmagic_stat	= 0;
+		nmagic_stat	= 0;
+		int_stat	= 0.00;
+		dex_stat	= 0.00;
+		str_stat	= 0.00;
+	}	
+}
+
+[t:template,n:skill_rune_cmagic_0]
+{
+	specializes = base_skill_rune_cmagic;
+
+    common:screen_name = "Combat Magic Level 0";
+	[skill_rune]
+	{
+		uber_stat	= 0;
+		melee_stat	= 0;
+		ranged_stat	= 0;
+		cmagic_stat	= 0;
+		nmagic_stat	= 0;
+		int_stat	= 0.00;
+		dex_stat	= 0.00;
+		str_stat	= 0.00;
+	}
+}
+
+[t:template,n:skill_rune_nmagic_0]
+{
+	specializes = base_skill_rune_nmagic;
+
+    common:screen_name = "Nature Magic Level 0";
+	[skill_rune]
+	{
+		uber_stat	= 0;
+		melee_stat	= 0;
+		ranged_stat	= 0;
+		cmagic_stat	= 0;
+		nmagic_stat	= 0;
+		int_stat	= 0.00;
+		dex_stat	= 0.00;
+		str_stat	= 0.00;
+	}
+}
