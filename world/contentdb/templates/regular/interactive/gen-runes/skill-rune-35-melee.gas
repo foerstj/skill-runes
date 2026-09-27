@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee_35]
+{
+	specializes = base_skill_rune_melee;
+
+	common:screen_name = "Melee Level 35";
+	[skill_rune]
+	{
+		uber_stat	= 35.00;
+		melee_stat	= 35.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 22.40;
+		dex_stat	= 9.45;
+		int_stat	= 3.15;
+	}
+}

@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_cmagic_60]
+{
+	specializes = base_skill_rune_cmagic;
+
+	common:screen_name = "Combat Magic Level 60";
+	[skill_rune]
+	{
+		uber_stat	= 60.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 60.00;
+		str_stat	= 7.80;
+		dex_stat	= 10.20;
+		int_stat	= 42.00;
+	}
+}

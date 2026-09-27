@@ -1,9 +1,7 @@
-// skill runes lvl {{lvl}}
 {% set skill_names = {'melee': 'Melee', 'ranged': 'Ranged', 'nmagic': 'Nature Magic', 'cmagic': 'Combat Magic'} %}
 {% set str_parts = {'melee': 0.64, 'ranged': 0.25, 'nmagic': 0.09, 'cmagic': 0.13} %}
 {% set dex_parts = {'melee': 0.27, 'ranged': 0.62, 'nmagic': 0.18, 'cmagic': 0.17} %}
 {% set int_parts = {'melee': 0.09, 'ranged': 0.13, 'nmagic': 0.73, 'cmagic': 0.70} %}
-{% for skill in ['melee', 'ranged', 'nmagic', 'cmagic'] %}
 {% set skill_name = skill_names[skill] %}
 {% set	uber_stat	= lvl %}
 {% set	melee_stat	= lvl if skill == 'melee'  else 0 %}
@@ -13,7 +11,6 @@
 {% set	str_stat	= lvl * str_parts[skill] %}
 {% set	dex_stat	= lvl * dex_parts[skill] %}
 {% set	int_stat	= lvl * int_parts[skill] %}
-
 [t:template,n:skill_rune_{{skill}}_{{lvl}}]
 {
 	specializes = base_skill_rune_{{skill}};
@@ -31,4 +28,3 @@
 		int_stat	= {{'%0.2f' % int_stat}};
 	}
 }
-{% endfor %}

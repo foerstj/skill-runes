@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_nmagic_15]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Level 15";
+	[skill_rune]
+	{
+		uber_stat	= 15.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 15.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 1.35;
+		dex_stat	= 2.70;
+		int_stat	= 10.95;
+	}
+}
