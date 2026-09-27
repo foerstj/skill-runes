@@ -8,7 +8,7 @@
     {
         [other]
         {
-			{% for row in data %}
+			{% for row in data if row.skills == skill %}
             il_main = skill_rune_{{ skill }}_{{ row.level }};
             {% endfor %}
         }
