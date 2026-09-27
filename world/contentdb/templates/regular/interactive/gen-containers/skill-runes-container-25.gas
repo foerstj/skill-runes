@@ -9,8 +9,8 @@
         {
             il_main = skill_rune_melee_25;
             il_main = skill_rune_ranged_25;
-            il_main = skill_rune_cmagic_25;
             il_main = skill_rune_nmagic_25;
+            il_main = skill_rune_cmagic_25;
         }
     }
 }

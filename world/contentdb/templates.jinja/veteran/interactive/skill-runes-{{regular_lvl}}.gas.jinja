@@ -8,11 +8,11 @@
 		uber_stat	= {{veteran_lvl}};
 		melee_stat	= {{veteran_lvl}};
 		ranged_stat	= 0;
-		cmagic_stat	= 0;
 		nmagic_stat	= 0;
-		int_stat	= {{'%0.2f' % (veteran_lvl*0.09)}};
-		dex_stat	= {{'%0.2f' % (veteran_lvl*0.27)}};
+		cmagic_stat	= 0;
 		str_stat	= {{'%0.2f' % (veteran_lvl*0.64)}};
+		dex_stat	= {{'%0.2f' % (veteran_lvl*0.27)}};
+		int_stat	= {{'%0.2f' % (veteran_lvl*0.09)}};
 	}
 }
 
@@ -26,30 +26,12 @@
 		uber_stat	= {{veteran_lvl}};
 		melee_stat	= 0;
 		ranged_stat	= {{veteran_lvl}};
+		nmagic_stat	= 0;
 		cmagic_stat	= 0;
-		nmagic_stat	= 0;
-		int_stat	= {{'%0.2f' % (veteran_lvl*0.13)}};
-		dex_stat	= {{'%0.2f' % (veteran_lvl*0.62)}};
 		str_stat	= {{'%0.2f' % (veteran_lvl*0.25)}};
+		dex_stat	= {{'%0.2f' % (veteran_lvl*0.62)}};
+		int_stat	= {{'%0.2f' % (veteran_lvl*0.13)}};
 	}	
-}
-
-[t:template,n:2W_skill_rune_cmagic_{{regular_lvl}}]
-{
-	specializes = base_skill_rune_cmagic;
-
-    common:screen_name = "Combat Magic Level {{veteran_lvl}}";
-	[skill_rune]
-	{
-		uber_stat	= {{veteran_lvl}};
-		melee_stat	= 0;
-		ranged_stat	= 0;
-		cmagic_stat	= {{veteran_lvl}};
-		nmagic_stat	= 0;
-		int_stat	= {{'%0.2f' % (veteran_lvl*0.70)}};
-		dex_stat	= {{'%0.2f' % (veteran_lvl*0.17)}};
-		str_stat	= {{'%0.2f' % (veteran_lvl*0.13)}};
-	}
 }
 
 [t:template,n:2W_skill_rune_nmagic_{{regular_lvl}}]
@@ -62,10 +44,28 @@
 		uber_stat	= {{veteran_lvl}};
 		melee_stat	= 0;
 		ranged_stat	= 0;
-		cmagic_stat	= 0;
 		nmagic_stat	= {{veteran_lvl}};
-		int_stat	= {{'%0.2f' % (veteran_lvl*0.73)}};
-		dex_stat	= {{'%0.2f' % (veteran_lvl*0.18)}};
+		cmagic_stat	= 0;
 		str_stat	= {{'%0.2f' % (veteran_lvl*0.09)}};
+		dex_stat	= {{'%0.2f' % (veteran_lvl*0.18)}};
+		int_stat	= {{'%0.2f' % (veteran_lvl*0.73)}};
+	}
+}
+
+[t:template,n:2W_skill_rune_cmagic_{{regular_lvl}}]
+{
+	specializes = base_skill_rune_cmagic;
+
+    common:screen_name = "Combat Magic Level {{veteran_lvl}}";
+	[skill_rune]
+	{
+		uber_stat	= {{veteran_lvl}};
+		melee_stat	= 0;
+		ranged_stat	= 0;
+		nmagic_stat	= 0;
+		cmagic_stat	= {{veteran_lvl}};
+		str_stat	= {{'%0.2f' % (veteran_lvl*0.13)}};
+		dex_stat	= {{'%0.2f' % (veteran_lvl*0.17)}};
+		int_stat	= {{'%0.2f' % (veteran_lvl*0.70)}};
 	}
 }
