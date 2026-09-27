@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_ranged_0]
+{
+	specializes = base_skill_rune_ranged;
+
+	common:screen_name = "Ranged Level 83 (Regular 0)";
+	[skill_rune]
+	{
+		uber_stat	= 83.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 83.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 20.75;
+		dex_stat	= 51.46;
+		int_stat	= 10.79;
+	}
+}

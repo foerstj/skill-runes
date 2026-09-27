@@ -7,6 +7,7 @@
     {
         [other]
         {
+            il_main = 2W_skill_rune_melee_0;
             il_main = 2W_skill_rune_melee_10;
             il_main = 2W_skill_rune_melee_20;
             il_main = 2W_skill_rune_melee_30;
@@ -26,6 +27,7 @@
     {
         [other]
         {
+            il_main = 2W_skill_rune_ranged_0;
             il_main = 2W_skill_rune_ranged_10;
             il_main = 2W_skill_rune_ranged_20;
             il_main = 2W_skill_rune_ranged_30;
@@ -45,6 +47,7 @@
     {
         [other]
         {
+            il_main = 2W_skill_rune_nmagic_0;
             il_main = 2W_skill_rune_nmagic_10;
             il_main = 2W_skill_rune_nmagic_20;
             il_main = 2W_skill_rune_nmagic_30;
@@ -64,6 +67,7 @@
     {
         [other]
         {
+            il_main = 2W_skill_rune_cmagic_0;
             il_main = 2W_skill_rune_cmagic_10;
             il_main = 2W_skill_rune_cmagic_20;
             il_main = 2W_skill_rune_cmagic_30;
