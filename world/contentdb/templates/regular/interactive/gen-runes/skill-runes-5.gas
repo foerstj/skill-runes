@@ -7,11 +7,11 @@
 	common:screen_name = "Melee Level 5";
 	[skill_rune]
 	{
-		uber_stat	= 5;
-		melee_stat	= 5;
-		ranged_stat	= 0;
-		nmagic_stat	= 0;
-		cmagic_stat	= 0;
+		uber_stat	= 5.00;
+		melee_stat	= 5.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
 		str_stat	= 3.20;
 		dex_stat	= 1.35;
 		int_stat	= 0.45;
@@ -25,11 +25,11 @@
 	common:screen_name = "Ranged Level 5";
 	[skill_rune]
 	{
-		uber_stat	= 5;
-		melee_stat	= 0;
-		ranged_stat	= 5;
-		nmagic_stat	= 0;
-		cmagic_stat	= 0;
+		uber_stat	= 5.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 5.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
 		str_stat	= 1.25;
 		dex_stat	= 3.10;
 		int_stat	= 0.65;
@@ -43,11 +43,11 @@
 	common:screen_name = "Nature Magic Level 5";
 	[skill_rune]
 	{
-		uber_stat	= 5;
-		melee_stat	= 0;
-		ranged_stat	= 0;
-		nmagic_stat	= 5;
-		cmagic_stat	= 0;
+		uber_stat	= 5.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 5.00;
+		cmagic_stat	= 0.00;
 		str_stat	= 0.45;
 		dex_stat	= 0.90;
 		int_stat	= 3.65;
@@ -61,11 +61,11 @@
 	common:screen_name = "Combat Magic Level 5";
 	[skill_rune]
 	{
-		uber_stat	= 5;
-		melee_stat	= 0;
-		ranged_stat	= 0;
-		nmagic_stat	= 0;
-		cmagic_stat	= 5;
+		uber_stat	= 5.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 5.00;
 		str_stat	= 0.65;
 		dex_stat	= 0.85;
 		int_stat	= 3.50;

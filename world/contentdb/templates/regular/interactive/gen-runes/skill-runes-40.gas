@@ -7,11 +7,11 @@
 	common:screen_name = "Melee Level 40";
 	[skill_rune]
 	{
-		uber_stat	= 40;
-		melee_stat	= 40;
-		ranged_stat	= 0;
-		nmagic_stat	= 0;
-		cmagic_stat	= 0;
+		uber_stat	= 40.00;
+		melee_stat	= 40.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
 		str_stat	= 25.60;
 		dex_stat	= 10.80;
 		int_stat	= 3.60;
@@ -25,11 +25,11 @@
 	common:screen_name = "Ranged Level 40";
 	[skill_rune]
 	{
-		uber_stat	= 40;
-		melee_stat	= 0;
-		ranged_stat	= 40;
-		nmagic_stat	= 0;
-		cmagic_stat	= 0;
+		uber_stat	= 40.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 40.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
 		str_stat	= 10.00;
 		dex_stat	= 24.80;
 		int_stat	= 5.20;
@@ -43,11 +43,11 @@
 	common:screen_name = "Nature Magic Level 40";
 	[skill_rune]
 	{
-		uber_stat	= 40;
-		melee_stat	= 0;
-		ranged_stat	= 0;
-		nmagic_stat	= 40;
-		cmagic_stat	= 0;
+		uber_stat	= 40.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 40.00;
+		cmagic_stat	= 0.00;
 		str_stat	= 3.60;
 		dex_stat	= 7.20;
 		int_stat	= 29.20;
@@ -61,11 +61,11 @@
 	common:screen_name = "Combat Magic Level 40";
 	[skill_rune]
 	{
-		uber_stat	= 40;
-		melee_stat	= 0;
-		ranged_stat	= 0;
-		nmagic_stat	= 0;
-		cmagic_stat	= 40;
+		uber_stat	= 40.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 40.00;
 		str_stat	= 5.20;
 		dex_stat	= 6.80;
 		int_stat	= 28.00;

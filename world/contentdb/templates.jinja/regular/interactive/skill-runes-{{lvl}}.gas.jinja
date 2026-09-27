@@ -5,9 +5,14 @@
 {% set int_parts = {'melee': 0.09, 'ranged': 0.13, 'nmagic': 0.73, 'cmagic': 0.70} %}
 {% for skill in ['melee', 'ranged', 'nmagic', 'cmagic'] %}
 {% set skill_name = skill_names[skill] %}
-{% set str_part = str_parts[skill] %}
-{% set dex_part = dex_parts[skill] %}
-{% set int_part = int_parts[skill] %}
+{% set	uber_stat	= lvl %}
+{% set	melee_stat	= lvl if skill == 'melee'  else 0 %}
+{% set	ranged_stat	= lvl if skill == 'ranged' else 0 %}
+{% set	nmagic_stat	= lvl if skill == 'nmagic' else 0 %}
+{% set	cmagic_stat	= lvl if skill == 'cmagic' else 0 %}
+{% set	str_stat	= lvl * str_parts[skill] %}
+{% set	dex_stat	= lvl * dex_parts[skill] %}
+{% set	int_stat	= lvl * int_parts[skill] %}
 
 [t:template,n:skill_rune_{{skill}}_{{lvl}}]
 {
@@ -16,14 +21,14 @@
 	common:screen_name = "{{skill_name}} Level {{lvl}}";
 	[skill_rune]
 	{
-		uber_stat	= {{lvl}};
-		melee_stat	= {{lvl if skill == 'melee' else 0}};
-		ranged_stat	= {{lvl if skill == 'ranged' else 0}};
-		nmagic_stat	= {{lvl if skill == 'nmagic' else 0}};
-		cmagic_stat	= {{lvl if skill == 'cmagic' else 0}};
-		str_stat	= {{'%0.2f' % (lvl*str_part)}};
-		dex_stat	= {{'%0.2f' % (lvl*dex_part)}};
-		int_stat	= {{'%0.2f' % (lvl*int_part)}};
+		uber_stat	= {{'%0.2f' % uber_stat}};
+		melee_stat	= {{'%0.2f' % melee_stat}};
+		ranged_stat	= {{'%0.2f' % ranged_stat}};
+		nmagic_stat	= {{'%0.2f' % nmagic_stat}};
+		cmagic_stat	= {{'%0.2f' % cmagic_stat}};
+		str_stat	= {{'%0.2f' % str_stat}};
+		dex_stat	= {{'%0.2f' % dex_stat}};
+		int_stat	= {{'%0.2f' % int_stat}};
 	}
 }
 {% endfor %}
