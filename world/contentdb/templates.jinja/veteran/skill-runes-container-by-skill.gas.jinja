@@ -1,0 +1,17 @@
+{% for skill, skill_name in {'melee': 'Melee', 'ranged': 'Ranged', 'nmagic': 'Nature Magic', 'cmagic': 'Combat Magic'}.items() %}
+[t:template,n:2W_skill_runes_container_{{ skill }}]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Veteran Skill Runes - {{ skill_name }}";
+    [inventory]
+    {
+        [other]
+        {
+			{% for row in data if row.skills == skill %}
+            il_main = 2W_skill_rune_{{ skill }}_{{ row.level }};
+            {% endfor %}
+        }
+    }
+}
+{% endfor %}
