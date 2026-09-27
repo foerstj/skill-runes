@@ -1,0 +1,19 @@
+{% set skill_names = {'melee': 'Melee', 'ranged': 'Ranged', 'nmagic': 'Nature Magic', 'cmagic': 'Combat Magic'} %}
+{% set skill_name = skill_names[skills] %}
+[t:template,n:3W_skill_rune_{{skills}}_{{level}}]
+{
+	specializes = base_skill_rune_{{skills}};
+
+	common:screen_name = "{{skill_name}} Level {{uber | int}} (Regular {{level}})";
+	[skill_rune]
+	{
+		uber_stat	= {{'%0.2f' % uber}};
+		melee_stat	= {{'%0.2f' % melee}};
+		ranged_stat	= {{'%0.2f' % ranged}};
+		nmagic_stat	= {{'%0.2f' % nmagic}};
+		cmagic_stat	= {{'%0.2f' % cmagic}};
+		str_stat	= {{'%0.2f' % strength}};
+		dex_stat	= {{'%0.2f' % dexterity}};
+		int_stat	= {{'%0.2f' % intelligence}};
+	}
+}

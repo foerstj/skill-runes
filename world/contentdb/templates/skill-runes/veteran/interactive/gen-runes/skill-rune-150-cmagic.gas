@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_cmagic_150]
+{
+	specializes = base_skill_rune_cmagic;
+
+	common:screen_name = "Combat Magic Level 150 (Regular 150)";
+	[skill_rune]
+	{
+		uber_stat	= 150.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 150.00;
+		str_stat	= 19.50;
+		dex_stat	= 25.50;
+		int_stat	= 105.00;
+	}
+}

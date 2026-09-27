@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_nmagic_100]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Level 118 (Regular 100)";
+	[skill_rune]
+	{
+		uber_stat	= 118.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 118.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 10.62;
+		dex_stat	= 21.24;
+		int_stat	= 86.14;
+	}
+}

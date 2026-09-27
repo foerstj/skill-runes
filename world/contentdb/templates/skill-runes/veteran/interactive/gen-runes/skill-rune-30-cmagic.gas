@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_cmagic_30]
+{
+	specializes = base_skill_rune_cmagic;
+
+	common:screen_name = "Combat Magic Level 73 (Regular 30)";
+	[skill_rune]
+	{
+		uber_stat	= 73.20;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 73.20;
+		str_stat	= 9.52;
+		dex_stat	= 12.44;
+		int_stat	= 51.24;
+	}
+}

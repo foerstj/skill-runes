@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee_20]
+{
+	specializes = base_skill_rune_melee;
+
+	common:screen_name = "Melee Level 91 (Regular 20)";
+	[skill_rune]
+	{
+		uber_stat	= 91.93;
+		melee_stat	= 91.93;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 58.84;
+		dex_stat	= 24.82;
+		int_stat	= 8.27;
+	}
+}

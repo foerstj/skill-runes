@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee_10]
+{
+	specializes = base_skill_rune_melee;
+
+	common:screen_name = "Melee Level 87 (Regular 10)";
+	[skill_rune]
+	{
+		uber_stat	= 87.47;
+		melee_stat	= 87.47;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 55.98;
+		dex_stat	= 23.62;
+		int_stat	= 7.87;
+	}
+}

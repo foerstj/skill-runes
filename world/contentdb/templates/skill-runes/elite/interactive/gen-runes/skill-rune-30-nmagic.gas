@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_nmagic_30]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Level 96 (Regular 30)";
+	[skill_rune]
+	{
+		uber_stat	= 96.40;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 96.40;
+		cmagic_stat	= 0.00;
+		str_stat	= 8.68;
+		dex_stat	= 17.35;
+		int_stat	= 70.37;
+	}
+}
