@@ -1,0 +1,16 @@
+[t:template,n:skill_runes_container_45]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Skill Runes Level 45";
+    [inventory]
+    {
+        [other]
+        {
+            il_main = skill_rune_melee_45;
+            il_main = skill_rune_ranged_45;
+            il_main = skill_rune_cmagic_45;
+            il_main = skill_rune_nmagic_45;
+        }
+    }
+}
