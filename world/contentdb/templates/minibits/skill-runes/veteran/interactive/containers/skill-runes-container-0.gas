@@ -7,10 +7,10 @@
     {
         [other]
         {
-            il_main = 2W_skill_rune_melee_0;
-            il_main = 2W_skill_rune_ranged_0;
-            il_main = 2W_skill_rune_cmagic_0;
-            il_main = 2W_skill_rune_nmagic_0;
+            il_main = 2W_skill_rune_mb_melee_0;
+            il_main = 2W_skill_rune_mb_ranged_0;
+            il_main = 2W_skill_rune_mb_cmagic_0;
+            il_main = 2W_skill_rune_mb_nmagic_0;
         }
     }
 }

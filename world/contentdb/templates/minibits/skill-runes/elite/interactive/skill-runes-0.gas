@@ -1,4 +1,4 @@
-[t:template,n:3W_skill_rune_melee_0]
+[t:template,n:3W_skill_rune_mb_melee_0]
 {
 	specializes = base_skill_rune_melee;
 
@@ -16,7 +16,7 @@
 	}
 }
 
-[t:template,n:3W_skill_rune_ranged_0]
+[t:template,n:3W_skill_rune_mb_ranged_0]
 {
 	specializes = base_skill_rune_ranged;
 
@@ -34,7 +34,7 @@
 	}	
 }
 
-[t:template,n:3W_skill_rune_cmagic_0]
+[t:template,n:3W_skill_rune_mb_cmagic_0]
 {
 	specializes = base_skill_rune_cmagic;
 
@@ -52,7 +52,7 @@
 	}
 }
 
-[t:template,n:3W_skill_rune_nmagic_0]
+[t:template,n:3W_skill_rune_mb_nmagic_0]
 {
 	specializes = base_skill_rune_nmagic;
 
