@@ -3,7 +3,7 @@
 {% set str_parts = {'melee': 0.64, 'ranged': 0.25, 'nmagic': 0.09, 'cmagic': 0.13} %}
 {% set dex_parts = {'melee': 0.27, 'ranged': 0.62, 'nmagic': 0.18, 'cmagic': 0.17} %}
 {% set int_parts = {'melee': 0.09, 'ranged': 0.13, 'nmagic': 0.73, 'cmagic': 0.70} %}
-{% for skill in ['melee', 'ranged', 'cmagic', 'nmagic'] %}
+{% for skill in ['melee', 'ranged', 'nmagic', 'cmagic'] %}
 {% set skill_name = skill_names[skill] %}
 {% set str_part = str_parts[skill] %}
 {% set dex_part = dex_parts[skill] %}
@@ -19,11 +19,11 @@
 		uber_stat	= {{lvl}};
 		melee_stat	= {{lvl if skill == 'melee' else 0}};
 		ranged_stat	= {{lvl if skill == 'ranged' else 0}};
-		cmagic_stat	= {{lvl if skill == 'cmagic' else 0}};
 		nmagic_stat	= {{lvl if skill == 'nmagic' else 0}};
-		int_stat	= {{'%0.2f' % (lvl*int_part)}};
-		dex_stat	= {{'%0.2f' % (lvl*dex_part)}};
+		cmagic_stat	= {{lvl if skill == 'cmagic' else 0}};
 		str_stat	= {{'%0.2f' % (lvl*str_part)}};
+		dex_stat	= {{'%0.2f' % (lvl*dex_part)}};
+		int_stat	= {{'%0.2f' % (lvl*int_part)}};
 	}
 }
 {% endfor %}

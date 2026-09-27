@@ -10,11 +10,11 @@
 		uber_stat	= 150;
 		melee_stat	= 150;
 		ranged_stat	= 0;
-		cmagic_stat	= 0;
 		nmagic_stat	= 0;
-		int_stat	= 13.50;
-		dex_stat	= 40.50;
+		cmagic_stat	= 0;
 		str_stat	= 96.00;
+		dex_stat	= 40.50;
+		int_stat	= 13.50;
 	}
 }
 
@@ -28,29 +28,11 @@
 		uber_stat	= 150;
 		melee_stat	= 0;
 		ranged_stat	= 150;
+		nmagic_stat	= 0;
 		cmagic_stat	= 0;
-		nmagic_stat	= 0;
-		int_stat	= 19.50;
-		dex_stat	= 93.00;
 		str_stat	= 37.50;
-	}
-}
-
-[t:template,n:skill_rune_cmagic_150]
-{
-	specializes = base_skill_rune_cmagic;
-
-	common:screen_name = "Combat Magic Level 150";
-	[skill_rune]
-	{
-		uber_stat	= 150;
-		melee_stat	= 0;
-		ranged_stat	= 0;
-		cmagic_stat	= 150;
-		nmagic_stat	= 0;
-		int_stat	= 105.00;
-		dex_stat	= 25.50;
-		str_stat	= 19.50;
+		dex_stat	= 93.00;
+		int_stat	= 19.50;
 	}
 }
 
@@ -64,10 +46,28 @@
 		uber_stat	= 150;
 		melee_stat	= 0;
 		ranged_stat	= 0;
-		cmagic_stat	= 0;
 		nmagic_stat	= 150;
-		int_stat	= 109.50;
-		dex_stat	= 27.00;
+		cmagic_stat	= 0;
 		str_stat	= 13.50;
+		dex_stat	= 27.00;
+		int_stat	= 109.50;
+	}
+}
+
+[t:template,n:skill_rune_cmagic_150]
+{
+	specializes = base_skill_rune_cmagic;
+
+	common:screen_name = "Combat Magic Level 150";
+	[skill_rune]
+	{
+		uber_stat	= 150;
+		melee_stat	= 0;
+		ranged_stat	= 0;
+		nmagic_stat	= 0;
+		cmagic_stat	= 150;
+		str_stat	= 19.50;
+		dex_stat	= 25.50;
+		int_stat	= 105.00;
 	}
 }
