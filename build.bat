@@ -1,5 +1,5 @@
 :: name of map
-set map=minibits-demo-skill-runes
+set map=skill-runes-demo
 :: name of map, case-sensitive
 set map_cs=Skill Runes
 
