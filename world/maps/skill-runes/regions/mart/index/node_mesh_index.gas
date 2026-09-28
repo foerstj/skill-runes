@@ -1,4 +1,9 @@
 [node_mesh_index]
 {
+	0x001006a9 = t_xxx_flr_04x08-v0;
 	0x001006aa = t_xxx_flr_08x08-v0;
+	0x001006ce = t_xxx_flr_hills-32x32-water-a;
+	0x001006d4 = t_xxx_flr_hills-tx-flr-32x32-b;
+	0x001007f4 = t_xxx_ledg_08-cnr-cnvx-b;
+	0x001007f5 = t_xxx_ledg_08-cnr-cnvx-t;
 }
