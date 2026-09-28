@@ -1,0 +1,105 @@
+[t:skill_runes_container_0,n:0x00100004]
+{
+	[placement]
+	{
+	  p position = 6.25047,-2,4.93047,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_10,n:0x00100005]
+{
+	[placement]
+	{
+	  p position = 6.30748,-2,1.00345,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_5,n:0x00100006]
+{
+	[placement]
+	{
+	  p position = 6.27653,-2,2.97212,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_15,n:0x00100007]
+{
+	[placement]
+	{
+	  p position = 6.31092,-2,-0.896471,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_20,n:0x00100008]
+{
+	[placement]
+	{
+	  p position = 4.37608,-2,4.82299,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_25,n:0x00100009]
+{
+	[placement]
+	{
+	  p position = 4.36198,-2,3.05537,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_30,n:0x0010000a]
+{
+	[placement]
+	{
+	  p position = 4.40952,-2,0.838469,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_35,n:0x0010000b]
+{
+	[placement]
+	{
+	  p position = 4.41536,-2,-0.883739,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_40,n:0x0010000c]
+{
+	[placement]
+	{
+	  p position = 2.38323,-2,4.86203,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_45,n:0x0010000d]
+{
+	[placement]
+	{
+	  p position = 2.39004,-2,2.8467,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_50,n:0x0010000e]
+{
+	[placement]
+	{
+	  p position = 2.27552,-2,0.890017,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_60,n:0x0010000f]
+{
+	[placement]
+	{
+	  p position = 0.284519,-2,4.83305,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_80,n:0x00100010]
+{
+	[placement]
+	{
+	  p position = 0.253975,-2,2.90329,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_100,n:0x00100011]
+{
+	[placement]
+	{
+	  p position = 0.346397,-2,1.01586,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_150,n:0x00100012]
+{
+	[placement]
+	{
+	  p position = 0.398016,-2,-1.08064,0xe32e7d1f;
+	}
+}

@@ -1,0 +1,15 @@
+[t:skill_rune_0,n:0x00100002]
+{
+	[placement]
+	{
+	  p position = -0.0155835,0.87397,-0.00448799,0xa3044b77;
+	}
+}
+[t:skill_rune_drdeath,n:0x00100003]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 0.0276604,0.860284,0.00770092,0x25253d38;
+	}
+}

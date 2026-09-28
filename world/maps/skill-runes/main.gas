@@ -16,7 +16,7 @@
 	  f fov = 60.000000;
 	  f max_azimuth = 85.000000;
 	  f max_distance = 18.000000;
-	  f min_azimuth = 32.000000;
+	  f min_azimuth = 15.000000;
 	  f min_distance = 3.000000;
 	  f nearclip = 1.000000;
 	  f orbit = 0.000000;

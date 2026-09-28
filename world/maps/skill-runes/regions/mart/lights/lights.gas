@@ -9,13 +9,13 @@
 	  x color = 0xFFFFFFFF;
 	  b draw_shadow = true;
 	  f inner_radius = 0.000000;
-	  f intensity = 1.000000;
+	  f intensity = 0.500000;
 	  b occlude_geometry = true;
 	  b on_timer = true;
 	  f outer_radius = 0.000000;
 		[direction]
 		{
-		  x node = 0x1CB05CBF;
+		  x node = 0x89FE6CDD;
 		  f x = 0.429879;
 		  f y = 0.809017;
 		  f z = -0.400869;
@@ -30,13 +30,13 @@
 	  x color = 0xFF0080FF;
 	  b draw_shadow = false;
 	  f inner_radius = 0.000000;
-	  f intensity = 0.500000;
+	  f intensity = 0.250000;
 	  b occlude_geometry = false;
 	  b on_timer = false;
 	  f outer_radius = 0.000000;
 		[direction]
 		{
-		  x node = 0x1CB05CBF;
+		  x node = 0x89FE6CDD;
 		  f x = -0.408310;
 		  f y = 0.809017;
 		  f z = 0.422817;
