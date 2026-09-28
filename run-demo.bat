@@ -1,5 +1,5 @@
 :: name of map
-set map=skill-runes
+set map=skill-runes-demo
 
 :: path of Bits dir
 set bits=%~dp0.
