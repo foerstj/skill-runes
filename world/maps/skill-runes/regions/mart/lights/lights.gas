@@ -15,7 +15,7 @@
 	  f outer_radius = 0.000000;
 		[direction]
 		{
-		  x node = 0x89FE6CDD;
+		  x node = 0x06139810;
 		  f x = 0.429879;
 		  f y = 0.809017;
 		  f z = -0.400869;
@@ -36,7 +36,7 @@
 	  f outer_radius = 0.000000;
 		[direction]
 		{
-		  x node = 0x89FE6CDD;
+		  x node = 0x06139810;
 		  f x = -0.408310;
 		  f y = 0.809017;
 		  f z = 0.422817;
