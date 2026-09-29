@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_cmagic_120]
+{
+	specializes = base_skill_rune_cmagic;
+
+	common:screen_name = "Combat Magic Level 130 (Regular 120)";
+	[skill_rune]
+	{
+		uber_stat	= 130.80;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 130.80;
+		str_stat	= 17.00;
+		dex_stat	= 22.24;
+		int_stat	= 91.56;
+	}
+}

@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_cmagic_35]
+{
+	specializes = base_skill_rune_cmagic;
+
+	common:screen_name = "Combat Magic Level 98 (Regular 35)";
+	[skill_rune]
+	{
+		uber_stat	= 98.63;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 98.63;
+		str_stat	= 12.82;
+		dex_stat	= 16.77;
+		int_stat	= 69.04;
+	}
+}

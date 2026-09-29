@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_nmagic_15]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Level 89 (Regular 15)";
+	[skill_rune]
+	{
+		uber_stat	= 89.70;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 89.70;
+		cmagic_stat	= 0.00;
+		str_stat	= 8.07;
+		dex_stat	= 16.15;
+		int_stat	= 65.48;
+	}
+}

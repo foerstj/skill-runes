@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_ranged_5]
+{
+	specializes = base_skill_rune_ranged;
+
+	common:screen_name = "Ranged Level 57 (Regular 5)";
+	[skill_rune]
+	{
+		uber_stat	= 57.20;
+		melee_stat	= 0.00;
+		ranged_stat	= 57.20;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 14.30;
+		dex_stat	= 35.46;
+		int_stat	= 7.44;
+	}
+}

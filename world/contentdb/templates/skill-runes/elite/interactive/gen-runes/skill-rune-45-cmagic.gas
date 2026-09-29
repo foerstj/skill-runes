@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_cmagic_45]
+{
+	specializes = base_skill_rune_cmagic;
+
+	common:screen_name = "Combat Magic Level 103 (Regular 45)";
+	[skill_rune]
+	{
+		uber_stat	= 103.10;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 103.10;
+		str_stat	= 13.40;
+		dex_stat	= 17.53;
+		int_stat	= 72.17;
+	}
+}

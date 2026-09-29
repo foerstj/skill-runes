@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_cmagic_15]
+{
+	specializes = base_skill_rune_cmagic;
+
+	common:screen_name = "Combat Magic Level 89 (Regular 15)";
+	[skill_rune]
+	{
+		uber_stat	= 89.70;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 89.70;
+		str_stat	= 11.66;
+		dex_stat	= 15.25;
+		int_stat	= 62.79;
+	}
+}

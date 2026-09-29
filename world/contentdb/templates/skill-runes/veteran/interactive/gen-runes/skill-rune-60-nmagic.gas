@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_nmagic_60]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Level 92 (Regular 60)";
+	[skill_rune]
+	{
+		uber_stat	= 92.40;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 92.40;
+		cmagic_stat	= 0.00;
+		str_stat	= 8.32;
+		dex_stat	= 16.63;
+		int_stat	= 67.45;
+	}
+}

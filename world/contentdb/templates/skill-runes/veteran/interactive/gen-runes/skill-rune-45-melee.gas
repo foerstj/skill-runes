@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_melee_45]
+{
+	specializes = base_skill_rune_melee;
+
+	common:screen_name = "Melee Level 82 (Regular 45)";
+	[skill_rune]
+	{
+		uber_stat	= 82.80;
+		melee_stat	= 82.80;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 52.99;
+		dex_stat	= 22.36;
+		int_stat	= 7.45;
+	}
+}

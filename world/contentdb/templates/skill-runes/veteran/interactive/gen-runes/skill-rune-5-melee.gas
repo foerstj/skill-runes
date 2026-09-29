@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_melee_5]
+{
+	specializes = base_skill_rune_melee;
+
+	common:screen_name = "Melee Level 57 (Regular 5)";
+	[skill_rune]
+	{
+		uber_stat	= 57.20;
+		melee_stat	= 57.20;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 36.61;
+		dex_stat	= 15.44;
+		int_stat	= 5.15;
+	}
+}

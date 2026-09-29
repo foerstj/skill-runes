@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_ranged_80]
+{
+	specializes = base_skill_rune_ranged;
+
+	common:screen_name = "Ranged Level 105 (Regular 80)";
+	[skill_rune]
+	{
+		uber_stat	= 105.20;
+		melee_stat	= 0.00;
+		ranged_stat	= 105.20;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 26.30;
+		dex_stat	= 65.22;
+		int_stat	= 13.68;
+	}
+}

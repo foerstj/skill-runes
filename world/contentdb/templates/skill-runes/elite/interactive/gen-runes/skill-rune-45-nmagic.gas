@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_nmagic_45]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Level 103 (Regular 45)";
+	[skill_rune]
+	{
+		uber_stat	= 103.10;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 103.10;
+		cmagic_stat	= 0.00;
+		str_stat	= 9.28;
+		dex_stat	= 18.56;
+		int_stat	= 75.26;
+	}
+}

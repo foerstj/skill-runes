@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_nmagic_25]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Level 70 (Regular 25)";
+	[skill_rune]
+	{
+		uber_stat	= 70.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 70.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 6.30;
+		dex_stat	= 12.60;
+		int_stat	= 51.10;
+	}
+}

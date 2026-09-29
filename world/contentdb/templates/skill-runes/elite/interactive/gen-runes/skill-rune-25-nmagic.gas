@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_nmagic_25]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Level 94 (Regular 25)";
+	[skill_rune]
+	{
+		uber_stat	= 94.17;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 94.17;
+		cmagic_stat	= 0.00;
+		str_stat	= 8.47;
+		dex_stat	= 16.95;
+		int_stat	= 68.74;
+	}
+}
