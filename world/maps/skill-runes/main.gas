@@ -22,4 +22,28 @@
 	  f orbit = 0.000000;
 		position = 0.000000,0.000000,0.000000,0x00000000;
 	}
+
+	[worlds]
+	{
+		[regular]
+		{
+			screen_name = "a) Regular";
+			description = "Players of all levels can play here.";
+			required_level = 0;
+		}
+
+		[veteran]
+		{
+			screen_name = "b) Veteran";
+			description = "Players of all levels can play here.";
+			required_level = 0;
+		}
+
+		[elite]
+		{
+			screen_name = "c) Elite";
+			description = "Players of all levels can play here.";
+			required_level = 0;
+		}
+	}
 }
