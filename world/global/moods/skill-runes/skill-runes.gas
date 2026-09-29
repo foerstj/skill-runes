@@ -21,12 +21,12 @@
 	[music]
 	{
 	  f ambient_intro_delay = 0.000000;
-	  f ambient_repeat_delay = 32.000000;
-		ambient_track = s_e_env_wind_gust;
+	  f ambient_repeat_delay = 0.000000;
+		ambient_track = s_e_ambient_wind_01;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
-		room_type = rt_mountains;
+		room_type = rt_parkinglot;
 	  f standard_intro_delay = 0.000000;
 	  f standard_repeat_delay = 0.000000;
 		standard_track = s_m_the_ultreans;

@@ -1,3 +1,45 @@
+[t:use_point,n:0x00100014]
+{
+	[placement]
+	{
+	  p position = -0.0185839,0,1.00705,0xa3044b77;
+	}
+}
+[t:use_point,n:0x00100015]
+{
+	[placement]
+	{
+	  p position = -0.996753,0,-0.98445,0xa3044b77;
+	}
+}
+[t:use_point,n:0x00100016]
+{
+	[placement]
+	{
+	  p position = 0.963738,9.53674e-007,-0.986882,0xa3044b77;
+	}
+}
+[t:use_point,n:0x00100017]
+{
+	[placement]
+	{
+	  p position = 1.01793,0,0.0324826,0x25253d38;
+	}
+}
+[t:use_point,n:0x00100018]
+{
+	[placement]
+	{
+	  p position = -0.962821,-9.53674e-007,1.03739,0x25253d38;
+	}
+}
+[t:use_point,n:0x00100019]
+{
+	[placement]
+	{
+	  p position = -0.947246,-9.53674e-007,-1.02596,0x25253d38;
+	}
+}
 [t:trigger_change_mood_box,n:0x00100001]
 {
 	[common]

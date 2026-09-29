@@ -79,27 +79,34 @@
 {
 	[placement]
 	{
-	  p position = 0.284519,-2,4.83305,0xe32e7d1f;
+	  p position = 2.31774,-2,-0.986763,0xe32e7d1f;
 	}
 }
 [t:skill_runes_container_80,n:0x00100010]
 {
 	[placement]
 	{
-	  p position = 0.253975,-2,2.90329,0xe32e7d1f;
+	  p position = 0.216257,-2,4.94926,0xe32e7d1f;
 	}
 }
 [t:skill_runes_container_100,n:0x00100011]
 {
 	[placement]
 	{
-	  p position = 0.346397,-2,1.01586,0xe32e7d1f;
+	  p position = 0.216204,-2,3.02417,0xe32e7d1f;
 	}
 }
 [t:skill_runes_container_150,n:0x00100012]
 {
 	[placement]
 	{
-	  p position = 0.398016,-2,-1.08064,0xe32e7d1f;
+	  p position = 0.314481,-2,-1.04964,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_120,n:0x00100013]
+{
+	[placement]
+	{
+	  p position = 0.230039,-2,1.02937,0xe32e7d1f;
 	}
 }
