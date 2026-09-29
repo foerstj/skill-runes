@@ -20,6 +20,7 @@
             il_main = skill_rune_melee_60;
             il_main = skill_rune_melee_80;
             il_main = skill_rune_melee_100;
+            il_main = skill_rune_melee_120;
             il_main = skill_rune_melee_150;
         }
     }
@@ -46,6 +47,7 @@
             il_main = skill_rune_ranged_60;
             il_main = skill_rune_ranged_80;
             il_main = skill_rune_ranged_100;
+            il_main = skill_rune_ranged_120;
             il_main = skill_rune_ranged_150;
         }
     }
@@ -72,6 +74,7 @@
             il_main = skill_rune_nmagic_60;
             il_main = skill_rune_nmagic_80;
             il_main = skill_rune_nmagic_100;
+            il_main = skill_rune_nmagic_120;
             il_main = skill_rune_nmagic_150;
         }
     }
@@ -98,6 +101,7 @@
             il_main = skill_rune_cmagic_60;
             il_main = skill_rune_cmagic_80;
             il_main = skill_rune_cmagic_100;
+            il_main = skill_rune_cmagic_120;
             il_main = skill_rune_cmagic_150;
         }
     }

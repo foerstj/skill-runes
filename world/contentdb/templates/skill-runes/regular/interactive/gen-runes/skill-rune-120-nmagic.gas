@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_nmagic_120]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Level 120";
+	[skill_rune]
+	{
+		uber_stat	= 120.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 120.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 10.80;
+		dex_stat	= 21.60;
+		int_stat	= 87.60;
+	}
+}
