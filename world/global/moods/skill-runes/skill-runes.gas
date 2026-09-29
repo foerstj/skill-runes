@@ -1,0 +1,39 @@
+[mood_setting*]
+{
+	mood_name = skill-runes;
+
+  b interior = false;
+  f transition_time = 3.000000;
+	[fog]
+	{
+	  x fog_color = 0xFF403e42;
+	  f fog_density = 1.000000;
+	  f fog_near_dist = 18.000000;
+	  f fog_far_dist = 70.000000;
+	  f fog_lowdetail_near_dist = 18.000000;
+	  f fog_lowdetail_far_dist = 45.000000;
+	}
+	[frustum]
+	{
+	  f frustum_height = 80.000000;
+	  f frustum_width = 80.000000;
+	}
+	[music]
+	{
+	  f ambient_intro_delay = 0.000000;
+	  f ambient_repeat_delay = 32.000000;
+		ambient_track = s_e_env_wind_gust;
+	  f battle_intro_delay = 0.000000;
+	  f battle_repeat_delay = 0.000000;
+		battle_track = ;
+		room_type = rt_mountains;
+	  f standard_intro_delay = 0.000000;
+	  f standard_repeat_delay = 0.000000;
+		standard_track = s_m_the_ultreans;
+	}
+	[wind]
+	{
+	  f wind_direction = 3.000000;
+	  f wind_velocity = 10.000000;
+	}
+}
