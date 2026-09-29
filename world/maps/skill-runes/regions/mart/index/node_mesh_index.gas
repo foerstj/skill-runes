@@ -23,6 +23,9 @@
 	0x0010060f = t_xxx_dgn_wal_h2o_in-thin-a;
 	0x00100610 = t_xxx_dgn_wal_archway-a;
 	0x00100612 = t_xxx_dgn_wal_ex-alcove-a;
+	0x00100613 = t_xxx_dgn_wal_ex-alcove-b;
+	0x00100618 = t_xxx_dgn_wal_ex-pillar-a;
 	0x00100619 = t_xxx_dgn_wal_ex-pillar-b;
+	0x0010061c = t_xxx_dgn_wal_ex-thick-a;
 	0x0010061d = t_xxx_dgn_wal_ex-thin-a;
 }
