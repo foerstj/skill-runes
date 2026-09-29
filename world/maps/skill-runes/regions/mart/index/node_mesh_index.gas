@@ -4,6 +4,7 @@
 	0x0010056e = t_xxx_dgn_cnr_h2o_in-cnvx-a;
 	0x0010057b = t_xxx_dgn_flr_h2o_04x04-a;
 	0x0010057c = t_xxx_dgn_flr_h2o_08x04-a;
+	0x0010058f = t_xxx_dgn_flr_h2o_pillar-a;
 	0x00100590 = t_xxx_dgn_flr_h2o_pillar-b;
 	0x00100591 = t_xxx_dgn_flr_h2o_pillar-c;
 	0x001005a1 = t_xxx_dgn_flr_h2o_well-08x08-a;
@@ -12,6 +13,7 @@
 	0x001005da = t_xxx_dgn_flr_pillar-a;
 	0x001005db = t_xxx_dgn_flr_pillar-b;
 	0x001005dc = t_xxx_dgn_flr_pillar-c;
+	0x001005de = t_xxx_dgn_flr_stair-cncv-b;
 	0x001005e0 = t_xxx_dgn_flr_stair-cnvx-b;
 	0x001005e1 = t_xxx_dgn_flr_stair-thick-a;
 	0x001005e2 = t_xxx_dgn_flr_stair-thin-a;
