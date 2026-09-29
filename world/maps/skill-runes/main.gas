@@ -1,6 +1,6 @@
 [t:map,n:map]
 {
-	description = "Get 'em here!";
+	description = "Warning: Character Override!";
   b dev_only = false;
 	screen_name = "Skill Runes";
 	timeofday = 18h0m;

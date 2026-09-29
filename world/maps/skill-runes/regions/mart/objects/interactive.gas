@@ -1,5 +1,9 @@
 [t:sign_glb_no_return,n:0x0010002a]
 {
+	[common]
+	{
+		screen_name = "Pick it up and it's too late!";
+	}
 	[placement]
 	{
 	  q orientation = 0,1,0,-1.49012e-007;
@@ -8,6 +12,10 @@
 }
 [t:sign_glb_beware,n:0x00100029]
 {
+	[common]
+	{
+		screen_name = "Beware! Character Override!";
+	}
 	[placement]
 	{
 	  p position = -1.98375,0,0.041626,0x4c572c1c;
