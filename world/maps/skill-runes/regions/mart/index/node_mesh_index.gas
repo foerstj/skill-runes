@@ -10,6 +10,7 @@
 	0x00100590 = t_xxx_dgn_flr_h2o_pillar-b;
 	0x00100591 = t_xxx_dgn_flr_h2o_pillar-c;
 	0x001005a1 = t_xxx_dgn_flr_h2o_well-08x08-a;
+	0x001005a2 = t_xxx_dgn_flr_04x04-a;
 	0x001005a5 = t_xxx_dgn_flr_08x08-a;
 	0x001005d9 = t_xxx_dgn_flr_pedestal-a;
 	0x001005da = t_xxx_dgn_flr_pillar-a;
