@@ -22,7 +22,7 @@
 	{
 	  f ambient_intro_delay = 0.000000;
 	  f ambient_repeat_delay = 0.000000;
-		ambient_track = s_e_ambient_wind_01;
+		ambient_track = s_e_ambient_wind_01b;
 	  f battle_intro_delay = 0.000000;
 	  f battle_repeat_delay = 0.000000;
 		battle_track = ;
