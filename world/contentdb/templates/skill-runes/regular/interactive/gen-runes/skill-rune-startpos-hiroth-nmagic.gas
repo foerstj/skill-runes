@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_nmagic_startpos_hiroth]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Hiroth (Level 46)";
+	[skill_rune]
+	{
+		uber_stat	= 46.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 46.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 4.14;
+		dex_stat	= 8.28;
+		int_stat	= 33.58;
+	}
+}

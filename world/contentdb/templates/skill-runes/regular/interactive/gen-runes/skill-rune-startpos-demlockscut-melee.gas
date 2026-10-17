@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee_startpos_demlockscut]
+{
+	specializes = base_skill_rune_melee;
+
+	common:screen_name = "Melee Demlock's Cut (Level 18)";
+	[skill_rune]
+	{
+		uber_stat	= 18.00;
+		melee_stat	= 18.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 11.52;
+		dex_stat	= 4.86;
+		int_stat	= 1.62;
+	}
+}

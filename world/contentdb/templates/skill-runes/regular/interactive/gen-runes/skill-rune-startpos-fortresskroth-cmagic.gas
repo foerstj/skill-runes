@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_cmagic_startpos_fortresskroth]
+{
+	specializes = base_skill_rune_cmagic;
+
+	common:screen_name = "Combat Magic Fortress Kroth (Level 38)";
+	[skill_rune]
+	{
+		uber_stat	= 38.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 38.00;
+		str_stat	= 4.94;
+		dex_stat	= 6.46;
+		int_stat	= 26.60;
+	}
+}

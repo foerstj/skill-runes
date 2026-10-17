@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee_startpos_templeruins]
+{
+	specializes = base_skill_rune_melee;
+
+	common:screen_name = "Melee Temple Ruins (Level 32)";
+	[skill_rune]
+	{
+		uber_stat	= 32.00;
+		melee_stat	= 32.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 20.48;
+		dex_stat	= 8.64;
+		int_stat	= 2.88;
+	}
+}

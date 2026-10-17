@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_nmagic_startpos_templeruins]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Temple Ruins (Level 32)";
+	[skill_rune]
+	{
+		uber_stat	= 32.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 32.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 2.88;
+		dex_stat	= 5.76;
+		int_stat	= 23.36;
+	}
+}

@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_ranged_startpos_glacern]
+{
+	specializes = base_skill_rune_ranged;
+
+	common:screen_name = "Ranged Glacern (Level 7)";
+	[skill_rune]
+	{
+		uber_stat	= 7.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 7.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 1.75;
+		dex_stat	= 4.34;
+		int_stat	= 0.91;
+	}
+}

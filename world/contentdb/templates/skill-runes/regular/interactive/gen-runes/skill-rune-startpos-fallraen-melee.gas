@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee_startpos_fallraen]
+{
+	specializes = base_skill_rune_melee;
+
+	common:screen_name = "Melee Fallraen (Level 9)";
+	[skill_rune]
+	{
+		uber_stat	= 9.00;
+		melee_stat	= 9.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 5.76;
+		dex_stat	= 2.43;
+		int_stat	= 0.81;
+	}
+}

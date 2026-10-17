@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee_startpos_arhok]
+{
+	specializes = base_skill_rune_melee;
+
+	common:screen_name = "Melee Arhok (Level 0)";
+	[skill_rune]
+	{
+		uber_stat	= 0.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 0.00;
+		dex_stat	= 0.00;
+		int_stat	= 0.00;
+	}
+}

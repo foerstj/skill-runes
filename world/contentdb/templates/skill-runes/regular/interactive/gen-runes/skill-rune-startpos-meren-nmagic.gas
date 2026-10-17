@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_nmagic_startpos_meren]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Meren (Level 18)";
+	[skill_rune]
+	{
+		uber_stat	= 18.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 18.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 1.62;
+		dex_stat	= 3.24;
+		int_stat	= 13.14;
+	}
+}
