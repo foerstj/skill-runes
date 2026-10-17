@@ -13,3 +13,16 @@ popd
 move /Y "%bits%\skill-progression.csv" "%bits%\world\contentdb\templates.jinja\regular\skill-runes.csv"
 move /Y "%bits%\skill-progression-veteran.csv" "%bits%\world\contentdb\templates.jinja\veteran\skill-runes.csv"
 move /Y "%bits%\skill-progression-elite.csv" "%bits%\world\contentdb\templates.jinja\elite\skill-runes.csv"
+
+pushd "%GasPy%"
+venv\Scripts\python -m skill_progression --output-csv "%bits%" --class-lookup "%bits%" --levels startpos --skills melee ranged nmagic cmagic
+if %errorlevel% neq 0 pause
+venv\Scripts\python -m skill_progression --output-csv "%bits%" --class-lookup "%bits%" --levels startpos --skills melee ranged nmagic cmagic --world-level veteran
+if %errorlevel% neq 0 pause
+venv\Scripts\python -m skill_progression --output-csv "%bits%" --class-lookup "%bits%" --levels startpos --skills melee ranged nmagic cmagic --world-level elite
+if %errorlevel% neq 0 pause
+popd
+
+move /Y "%bits%\skill-progression.csv" "%bits%\world\contentdb\templates.jinja\regular\skill-runes-startpos.csv"
+move /Y "%bits%\skill-progression-veteran.csv" "%bits%\world\contentdb\templates.jinja\veteran\skill-runes-startpos.csv"
+move /Y "%bits%\skill-progression-elite.csv" "%bits%\world\contentdb\templates.jinja\elite\skill-runes-startpos.csv"
