@@ -10,6 +10,8 @@ venv\Scripts\python -m jinja "world\contentdb\templates.jinja\regular\skill-rune
 if %errorlevel% neq 0 pause
 venv\Scripts\python -m jinja "world\contentdb\templates.jinja\regular\skill-runes-container-by-skill.gas.jinja" world\contentdb\templates\skill-runes\regular\interactive\containers --for-all "world\contentdb\templates.jinja\regular\skill-runes.csv" --bits "%bits%"
 if %errorlevel% neq 0 pause
+venv\Scripts\python -m jinja "world\contentdb\templates.jinja\regular\skill-runes-container-by-skill-startpos.gas.jinja" world\contentdb\templates\skill-runes\regular\interactive\containers --for-all "world\contentdb\templates.jinja\regular\skill-runes-startpos.csv" --bits "%bits%"
+if %errorlevel% neq 0 pause
 
 venv\Scripts\python -m jinja "world\contentdb\templates.jinja\veteran\skill-rune-{{level}}-{{skills}}.gas.jinja" world\contentdb\templates\skill-runes\veteran\interactive\gen-runes --for-each "world\contentdb\templates.jinja\veteran\skill-runes.csv" --bits "%bits%"
 if %errorlevel% neq 0 pause

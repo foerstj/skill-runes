@@ -1,0 +1,140 @@
+[t:template,n:skill_runes_container_melee_startpos]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Skill Runes - Melee - Start Positions";
+    [inventory]
+    {
+        [other]
+        {
+            il_main = skill_rune_melee_startpos_farmhouse;
+            il_main = skill_rune_melee_startpos_stonebridge;
+            il_main = skill_rune_melee_startpos_glacern;
+            il_main = skill_rune_melee_startpos_jeriahscabin;
+            il_main = skill_rune_melee_startpos_travelercamp;
+            il_main = skill_rune_melee_startpos_darkswamp;
+            il_main = skill_rune_melee_startpos_templeruins;
+            il_main = skill_rune_melee_startpos_fortresskroth;
+            il_main = skill_rune_melee_startpos_droogvillage;
+            il_main = skill_rune_melee_startpos_castledungeon;
+            il_main = skill_rune_melee_startpos_elddim;
+            il_main = skill_rune_melee_startpos_crystwind;
+            il_main = skill_rune_melee_startpos_fallraen;
+            il_main = skill_rune_melee_startpos_meren;
+            il_main = skill_rune_melee_startpos_lang;
+            il_main = skill_rune_melee_startpos_quillrabe;
+            il_main = skill_rune_melee_startpos_hiroth;
+            il_main = skill_rune_melee_startpos_grescal;
+            il_main = skill_rune_melee_startpos_arhok;
+            il_main = skill_rune_melee_startpos_illicor;
+            il_main = skill_rune_melee_startpos_tradercamp;
+            il_main = skill_rune_melee_startpos_demlockscut;
+            il_main = skill_rune_melee_startpos_neenersemporium;
+        }
+    }
+}
+[t:template,n:skill_runes_container_ranged_startpos]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Skill Runes - Ranged - Start Positions";
+    [inventory]
+    {
+        [other]
+        {
+            il_main = skill_rune_ranged_startpos_farmhouse;
+            il_main = skill_rune_ranged_startpos_stonebridge;
+            il_main = skill_rune_ranged_startpos_glacern;
+            il_main = skill_rune_ranged_startpos_jeriahscabin;
+            il_main = skill_rune_ranged_startpos_travelercamp;
+            il_main = skill_rune_ranged_startpos_darkswamp;
+            il_main = skill_rune_ranged_startpos_templeruins;
+            il_main = skill_rune_ranged_startpos_fortresskroth;
+            il_main = skill_rune_ranged_startpos_droogvillage;
+            il_main = skill_rune_ranged_startpos_castledungeon;
+            il_main = skill_rune_ranged_startpos_elddim;
+            il_main = skill_rune_ranged_startpos_crystwind;
+            il_main = skill_rune_ranged_startpos_fallraen;
+            il_main = skill_rune_ranged_startpos_meren;
+            il_main = skill_rune_ranged_startpos_lang;
+            il_main = skill_rune_ranged_startpos_quillrabe;
+            il_main = skill_rune_ranged_startpos_hiroth;
+            il_main = skill_rune_ranged_startpos_grescal;
+            il_main = skill_rune_ranged_startpos_arhok;
+            il_main = skill_rune_ranged_startpos_illicor;
+            il_main = skill_rune_ranged_startpos_tradercamp;
+            il_main = skill_rune_ranged_startpos_demlockscut;
+            il_main = skill_rune_ranged_startpos_neenersemporium;
+        }
+    }
+}
+[t:template,n:skill_runes_container_nmagic_startpos]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Skill Runes - Nature Magic - Start Positions";
+    [inventory]
+    {
+        [other]
+        {
+            il_main = skill_rune_nmagic_startpos_farmhouse;
+            il_main = skill_rune_nmagic_startpos_stonebridge;
+            il_main = skill_rune_nmagic_startpos_glacern;
+            il_main = skill_rune_nmagic_startpos_jeriahscabin;
+            il_main = skill_rune_nmagic_startpos_travelercamp;
+            il_main = skill_rune_nmagic_startpos_darkswamp;
+            il_main = skill_rune_nmagic_startpos_templeruins;
+            il_main = skill_rune_nmagic_startpos_fortresskroth;
+            il_main = skill_rune_nmagic_startpos_droogvillage;
+            il_main = skill_rune_nmagic_startpos_castledungeon;
+            il_main = skill_rune_nmagic_startpos_elddim;
+            il_main = skill_rune_nmagic_startpos_crystwind;
+            il_main = skill_rune_nmagic_startpos_fallraen;
+            il_main = skill_rune_nmagic_startpos_meren;
+            il_main = skill_rune_nmagic_startpos_lang;
+            il_main = skill_rune_nmagic_startpos_quillrabe;
+            il_main = skill_rune_nmagic_startpos_hiroth;
+            il_main = skill_rune_nmagic_startpos_grescal;
+            il_main = skill_rune_nmagic_startpos_arhok;
+            il_main = skill_rune_nmagic_startpos_illicor;
+            il_main = skill_rune_nmagic_startpos_tradercamp;
+            il_main = skill_rune_nmagic_startpos_demlockscut;
+            il_main = skill_rune_nmagic_startpos_neenersemporium;
+        }
+    }
+}
+[t:template,n:skill_runes_container_cmagic_startpos]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Skill Runes - Combat Magic - Start Positions";
+    [inventory]
+    {
+        [other]
+        {
+            il_main = skill_rune_cmagic_startpos_farmhouse;
+            il_main = skill_rune_cmagic_startpos_stonebridge;
+            il_main = skill_rune_cmagic_startpos_glacern;
+            il_main = skill_rune_cmagic_startpos_jeriahscabin;
+            il_main = skill_rune_cmagic_startpos_travelercamp;
+            il_main = skill_rune_cmagic_startpos_darkswamp;
+            il_main = skill_rune_cmagic_startpos_templeruins;
+            il_main = skill_rune_cmagic_startpos_fortresskroth;
+            il_main = skill_rune_cmagic_startpos_droogvillage;
+            il_main = skill_rune_cmagic_startpos_castledungeon;
+            il_main = skill_rune_cmagic_startpos_elddim;
+            il_main = skill_rune_cmagic_startpos_crystwind;
+            il_main = skill_rune_cmagic_startpos_fallraen;
+            il_main = skill_rune_cmagic_startpos_meren;
+            il_main = skill_rune_cmagic_startpos_lang;
+            il_main = skill_rune_cmagic_startpos_quillrabe;
+            il_main = skill_rune_cmagic_startpos_hiroth;
+            il_main = skill_rune_cmagic_startpos_grescal;
+            il_main = skill_rune_cmagic_startpos_arhok;
+            il_main = skill_rune_cmagic_startpos_illicor;
+            il_main = skill_rune_cmagic_startpos_tradercamp;
+            il_main = skill_rune_cmagic_startpos_demlockscut;
+            il_main = skill_rune_cmagic_startpos_neenersemporium;
+        }
+    }
+}
