@@ -1,12 +1,14 @@
 :: path of Bits dir
 set bits=%~dp0.
 
+set skills=melee ranged nmagic cmagic
+
 pushd "%GasPy%"
-venv\Scripts\python -m skill_progression --output-csv "%bits%" --class-lookup "%bits%" --levels 5:50:5 60:100:20 120:150:30 --skills melee ranged nmagic cmagic
+venv\Scripts\python -m skill_progression --output-csv "%bits%" --class-lookup "%bits%" --levels 5:50:5 60:100:20 120:150:30 --skills %skills%
 if %errorlevel% neq 0 pause
-venv\Scripts\python -m skill_progression --output-csv "%bits%" --class-lookup "%bits%" --levels 0:50:5 60:100:20 120:150:30 --skills melee ranged nmagic cmagic --world-level veteran
+venv\Scripts\python -m skill_progression --output-csv "%bits%" --class-lookup "%bits%" --levels 0:50:5 60:100:20 120:150:30 --skills %skills% --world-level veteran
 if %errorlevel% neq 0 pause
-venv\Scripts\python -m skill_progression --output-csv "%bits%" --class-lookup "%bits%" --levels 0:50:5 60:100:20 120:150:30 --skills melee ranged nmagic cmagic --world-level elite
+venv\Scripts\python -m skill_progression --output-csv "%bits%" --class-lookup "%bits%" --levels 0:50:5 60:100:20 120:150:30 --skills %skills% --world-level elite
 if %errorlevel% neq 0 pause
 popd
 
@@ -15,11 +17,11 @@ move /Y "%bits%\skill-progression-veteran.csv" "%bits%\world\contentdb\templates
 move /Y "%bits%\skill-progression-elite.csv" "%bits%\world\contentdb\templates.jinja\elite\skill-runes.csv"
 
 pushd "%GasPy%"
-venv\Scripts\python -m skill_progression --output-csv "%bits%" --class-lookup "%bits%" --levels startpos --skills melee ranged nmagic cmagic
+venv\Scripts\python -m skill_progression --output-csv "%bits%" --class-lookup "%bits%" --levels startpos --skills %skills%
 if %errorlevel% neq 0 pause
-venv\Scripts\python -m skill_progression --output-csv "%bits%" --class-lookup "%bits%" --levels startpos --skills melee ranged nmagic cmagic --world-level veteran
+venv\Scripts\python -m skill_progression --output-csv "%bits%" --class-lookup "%bits%" --levels startpos --skills %skills% --world-level veteran
 if %errorlevel% neq 0 pause
-venv\Scripts\python -m skill_progression --output-csv "%bits%" --class-lookup "%bits%" --levels startpos --skills melee ranged nmagic cmagic --world-level elite
+venv\Scripts\python -m skill_progression --output-csv "%bits%" --class-lookup "%bits%" --levels startpos --skills %skills% --world-level elite
 if %errorlevel% neq 0 pause
 popd
 
