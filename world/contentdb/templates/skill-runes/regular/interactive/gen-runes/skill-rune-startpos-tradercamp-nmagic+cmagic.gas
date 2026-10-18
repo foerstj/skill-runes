@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_nmagic_cmagic_startpos_tradercamp]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Nature Magic + Combat Magic Trader Camp (Uber Level 11)";
+	[skill_rune]
+	{
+		uber_stat	= 11.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 8.44;
+		cmagic_stat	= 8.44;
+		str_stat	= 1.21;
+		dex_stat	= 1.93;
+		int_stat	= 7.86;
+	}
+}

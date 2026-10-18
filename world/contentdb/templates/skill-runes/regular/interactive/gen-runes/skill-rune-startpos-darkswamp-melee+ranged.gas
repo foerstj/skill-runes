@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee_ranged_startpos_darkswamp]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Ranged Dark Swamp (Uber Level 22)";
+	[skill_rune]
+	{
+		uber_stat	= 22.00;
+		melee_stat	= 17.54;
+		ranged_stat	= 17.54;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 9.79;
+		dex_stat	= 9.79;
+		int_stat	= 2.42;
+	}
+}

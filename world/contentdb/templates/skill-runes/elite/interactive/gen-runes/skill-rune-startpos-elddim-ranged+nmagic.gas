@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_ranged_nmagic_startpos_elddim]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Elite Elddim (Uber Level 83)";
+	[skill_rune]
+	{
+		uber_stat	= 83.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 79.54;
+		nmagic_stat	= 79.54;
+		cmagic_stat	= 0.00;
+		str_stat	= 14.11;
+		dex_stat	= 33.20;
+		int_stat	= 35.69;
+	}
+}

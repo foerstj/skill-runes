@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee_ranged_startpos_grescal]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Ranged Elite Grescal (Uber Level 106)";
+	[skill_rune]
+	{
+		uber_stat	= 106.00;
+		melee_stat	= 102.56;
+		ranged_stat	= 102.56;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 47.17;
+		dex_stat	= 47.17;
+		int_stat	= 11.66;
+	}
+}

@@ -106,6 +106,33 @@
         }
     }
 }
+[t:template,n:skill_runes_container_melee_ranged]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Skill Runes - Melee + Ranged";
+    [inventory]
+    {
+        [other]
+        {
+            il_main = skill_rune_melee_ranged_5;
+            il_main = skill_rune_melee_ranged_10;
+            il_main = skill_rune_melee_ranged_15;
+            il_main = skill_rune_melee_ranged_20;
+            il_main = skill_rune_melee_ranged_25;
+            il_main = skill_rune_melee_ranged_30;
+            il_main = skill_rune_melee_ranged_35;
+            il_main = skill_rune_melee_ranged_40;
+            il_main = skill_rune_melee_ranged_45;
+            il_main = skill_rune_melee_ranged_50;
+            il_main = skill_rune_melee_ranged_60;
+            il_main = skill_rune_melee_ranged_80;
+            il_main = skill_rune_melee_ranged_100;
+            il_main = skill_rune_melee_ranged_120;
+            il_main = skill_rune_melee_ranged_150;
+        }
+    }
+}
 [t:template,n:skill_runes_container_melee_nmagic]
 {
     specializes = base_skill_runes_container;
@@ -130,6 +157,114 @@
             il_main = skill_rune_melee_nmagic_100;
             il_main = skill_rune_melee_nmagic_120;
             il_main = skill_rune_melee_nmagic_150;
+        }
+    }
+}
+[t:template,n:skill_runes_container_melee_cmagic]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Skill Runes - Melee + Combat Magic";
+    [inventory]
+    {
+        [other]
+        {
+            il_main = skill_rune_melee_cmagic_5;
+            il_main = skill_rune_melee_cmagic_10;
+            il_main = skill_rune_melee_cmagic_15;
+            il_main = skill_rune_melee_cmagic_20;
+            il_main = skill_rune_melee_cmagic_25;
+            il_main = skill_rune_melee_cmagic_30;
+            il_main = skill_rune_melee_cmagic_35;
+            il_main = skill_rune_melee_cmagic_40;
+            il_main = skill_rune_melee_cmagic_45;
+            il_main = skill_rune_melee_cmagic_50;
+            il_main = skill_rune_melee_cmagic_60;
+            il_main = skill_rune_melee_cmagic_80;
+            il_main = skill_rune_melee_cmagic_100;
+            il_main = skill_rune_melee_cmagic_120;
+            il_main = skill_rune_melee_cmagic_150;
+        }
+    }
+}
+[t:template,n:skill_runes_container_ranged_nmagic]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Skill Runes - Ranged + Nature Magic";
+    [inventory]
+    {
+        [other]
+        {
+            il_main = skill_rune_ranged_nmagic_5;
+            il_main = skill_rune_ranged_nmagic_10;
+            il_main = skill_rune_ranged_nmagic_15;
+            il_main = skill_rune_ranged_nmagic_20;
+            il_main = skill_rune_ranged_nmagic_25;
+            il_main = skill_rune_ranged_nmagic_30;
+            il_main = skill_rune_ranged_nmagic_35;
+            il_main = skill_rune_ranged_nmagic_40;
+            il_main = skill_rune_ranged_nmagic_45;
+            il_main = skill_rune_ranged_nmagic_50;
+            il_main = skill_rune_ranged_nmagic_60;
+            il_main = skill_rune_ranged_nmagic_80;
+            il_main = skill_rune_ranged_nmagic_100;
+            il_main = skill_rune_ranged_nmagic_120;
+            il_main = skill_rune_ranged_nmagic_150;
+        }
+    }
+}
+[t:template,n:skill_runes_container_ranged_cmagic]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Skill Runes - Ranged + Combat Magic";
+    [inventory]
+    {
+        [other]
+        {
+            il_main = skill_rune_ranged_cmagic_5;
+            il_main = skill_rune_ranged_cmagic_10;
+            il_main = skill_rune_ranged_cmagic_15;
+            il_main = skill_rune_ranged_cmagic_20;
+            il_main = skill_rune_ranged_cmagic_25;
+            il_main = skill_rune_ranged_cmagic_30;
+            il_main = skill_rune_ranged_cmagic_35;
+            il_main = skill_rune_ranged_cmagic_40;
+            il_main = skill_rune_ranged_cmagic_45;
+            il_main = skill_rune_ranged_cmagic_50;
+            il_main = skill_rune_ranged_cmagic_60;
+            il_main = skill_rune_ranged_cmagic_80;
+            il_main = skill_rune_ranged_cmagic_100;
+            il_main = skill_rune_ranged_cmagic_120;
+            il_main = skill_rune_ranged_cmagic_150;
+        }
+    }
+}
+[t:template,n:skill_runes_container_nmagic_cmagic]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Skill Runes - Nature Magic + Combat Magic";
+    [inventory]
+    {
+        [other]
+        {
+            il_main = skill_rune_nmagic_cmagic_5;
+            il_main = skill_rune_nmagic_cmagic_10;
+            il_main = skill_rune_nmagic_cmagic_15;
+            il_main = skill_rune_nmagic_cmagic_20;
+            il_main = skill_rune_nmagic_cmagic_25;
+            il_main = skill_rune_nmagic_cmagic_30;
+            il_main = skill_rune_nmagic_cmagic_35;
+            il_main = skill_rune_nmagic_cmagic_40;
+            il_main = skill_rune_nmagic_cmagic_45;
+            il_main = skill_rune_nmagic_cmagic_50;
+            il_main = skill_rune_nmagic_cmagic_60;
+            il_main = skill_rune_nmagic_cmagic_80;
+            il_main = skill_rune_nmagic_cmagic_100;
+            il_main = skill_rune_nmagic_cmagic_120;
+            il_main = skill_rune_nmagic_cmagic_150;
         }
     }
 }

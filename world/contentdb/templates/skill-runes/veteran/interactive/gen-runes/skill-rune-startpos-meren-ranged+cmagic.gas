@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_ranged_cmagic_startpos_meren]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Combat Magic Veteran Meren (Uber Level 64)";
+	[skill_rune]
+	{
+		uber_stat	= 64.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 59.64;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 59.64;
+		str_stat	= 12.16;
+		dex_stat	= 25.28;
+		int_stat	= 26.56;
+	}
+}

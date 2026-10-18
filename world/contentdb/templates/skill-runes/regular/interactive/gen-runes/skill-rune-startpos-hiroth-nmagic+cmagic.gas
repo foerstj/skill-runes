@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_nmagic_cmagic_startpos_hiroth]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Nature Magic + Combat Magic Hiroth (Uber Level 46)";
+	[skill_rune]
+	{
+		uber_stat	= 46.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 41.32;
+		cmagic_stat	= 41.32;
+		str_stat	= 5.06;
+		dex_stat	= 8.05;
+		int_stat	= 32.89;
+	}
+}

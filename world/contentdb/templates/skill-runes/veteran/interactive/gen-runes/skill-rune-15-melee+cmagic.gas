@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_melee_cmagic_15]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Combat Magic Uber Level 63 (Regular 15)";
+	[skill_rune]
+	{
+		uber_stat	= 63.60;
+		melee_stat	= 59.21;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 59.21;
+		str_stat	= 24.49;
+		dex_stat	= 13.99;
+		int_stat	= 25.12;
+	}
+}

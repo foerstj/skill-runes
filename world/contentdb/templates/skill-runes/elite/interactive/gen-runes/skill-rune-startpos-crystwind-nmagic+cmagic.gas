@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_nmagic_cmagic_startpos_crystwind]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Nature Magic + Combat Magic Elite Crystwind (Uber Level 87)";
+	[skill_rune]
+	{
+		uber_stat	= 87.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 83.55;
+		cmagic_stat	= 83.55;
+		str_stat	= 9.57;
+		dex_stat	= 15.23;
+		int_stat	= 62.20;
+	}
+}

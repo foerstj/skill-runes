@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_nmagic_cmagic_startpos_meren]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Nature Magic + Combat Magic Meren (Uber Level 18)";
+	[skill_rune]
+	{
+		uber_stat	= 18.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 13.89;
+		cmagic_stat	= 13.89;
+		str_stat	= 1.98;
+		dex_stat	= 3.15;
+		int_stat	= 12.87;
+	}
+}

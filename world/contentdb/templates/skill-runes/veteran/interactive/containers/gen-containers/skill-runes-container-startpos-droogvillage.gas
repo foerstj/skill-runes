@@ -11,7 +11,12 @@
             il_main = 2W_skill_rune_ranged_startpos_droogvillage;
             il_main = 2W_skill_rune_nmagic_startpos_droogvillage;
             il_main = 2W_skill_rune_cmagic_startpos_droogvillage;
+            il_main = 2W_skill_rune_melee_ranged_startpos_droogvillage;
             il_main = 2W_skill_rune_melee_nmagic_startpos_droogvillage;
+            il_main = 2W_skill_rune_melee_cmagic_startpos_droogvillage;
+            il_main = 2W_skill_rune_ranged_nmagic_startpos_droogvillage;
+            il_main = 2W_skill_rune_ranged_cmagic_startpos_droogvillage;
+            il_main = 2W_skill_rune_nmagic_cmagic_startpos_droogvillage;
         }
     }
 }

@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee_ranged_startpos_demlockscut]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Ranged Elite Demlock's Cut (Uber Level 95)";
+	[skill_rune]
+	{
+		uber_stat	= 95.00;
+		melee_stat	= 91.56;
+		ranged_stat	= 91.56;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 42.28;
+		dex_stat	= 42.27;
+		int_stat	= 10.45;
+	}
+}

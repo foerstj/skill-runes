@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_ranged_nmagic_startpos_hiroth]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Elite Hiroth (Uber Level 105)";
+	[skill_rune]
+	{
+		uber_stat	= 105.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 101.56;
+		nmagic_stat	= 101.56;
+		cmagic_stat	= 0.00;
+		str_stat	= 17.85;
+		dex_stat	= 42.00;
+		int_stat	= 45.15;
+	}
+}

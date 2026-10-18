@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_ranged_nmagic_startpos_hiroth]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Veteran Hiroth (Uber Level 79)";
+	[skill_rune]
+	{
+		uber_stat	= 79.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 75.52;
+		nmagic_stat	= 75.52;
+		cmagic_stat	= 0.00;
+		str_stat	= 13.43;
+		dex_stat	= 31.60;
+		int_stat	= 33.97;
+	}
+}

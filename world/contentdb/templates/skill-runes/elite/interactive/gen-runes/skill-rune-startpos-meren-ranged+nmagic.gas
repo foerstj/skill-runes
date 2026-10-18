@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_ranged_nmagic_startpos_meren]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Elite Meren (Uber Level 96)";
+	[skill_rune]
+	{
+		uber_stat	= 96.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 92.56;
+		nmagic_stat	= 92.56;
+		cmagic_stat	= 0.00;
+		str_stat	= 16.32;
+		dex_stat	= 38.40;
+		int_stat	= 41.28;
+	}
+}

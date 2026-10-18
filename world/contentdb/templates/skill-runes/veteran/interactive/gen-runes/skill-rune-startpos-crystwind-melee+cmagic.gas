@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_melee_cmagic_startpos_crystwind]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Combat Magic Veteran Crystwind (Uber Level 56)";
+	[skill_rune]
+	{
+		uber_stat	= 56.00;
+		melee_stat	= 51.31;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 51.31;
+		str_stat	= 21.56;
+		dex_stat	= 12.32;
+		int_stat	= 22.12;
+	}
+}

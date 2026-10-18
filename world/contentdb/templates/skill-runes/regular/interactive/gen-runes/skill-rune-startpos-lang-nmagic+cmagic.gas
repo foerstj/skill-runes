@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_nmagic_cmagic_startpos_lang]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Nature Magic + Combat Magic Lang (Uber Level 25)";
+	[skill_rune]
+	{
+		uber_stat	= 25.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 20.38;
+		cmagic_stat	= 20.38;
+		str_stat	= 2.75;
+		dex_stat	= 4.38;
+		int_stat	= 17.88;
+	}
+}

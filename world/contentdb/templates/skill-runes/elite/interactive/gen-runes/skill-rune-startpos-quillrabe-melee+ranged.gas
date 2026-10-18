@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee_ranged_startpos_quillrabe]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Ranged Elite Quillrabe (Uber Level 103)";
+	[skill_rune]
+	{
+		uber_stat	= 103.00;
+		melee_stat	= 99.56;
+		ranged_stat	= 99.56;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 45.84;
+		dex_stat	= 45.84;
+		int_stat	= 11.33;
+	}
+}

@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_ranged_nmagic_startpos_castledungeon]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Castle Dungeon (Uber Level 46)";
+	[skill_rune]
+	{
+		uber_stat	= 46.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 41.32;
+		nmagic_stat	= 41.32;
+		cmagic_stat	= 0.00;
+		str_stat	= 7.82;
+		dex_stat	= 18.40;
+		int_stat	= 19.78;
+	}
+}

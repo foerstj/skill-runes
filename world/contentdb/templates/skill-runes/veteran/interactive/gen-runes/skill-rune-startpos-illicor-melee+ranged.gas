@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_melee_ranged_startpos_illicor]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Ranged Veteran Illicor (Uber Level 59)";
+	[skill_rune]
+	{
+		uber_stat	= 59.00;
+		melee_stat	= 54.31;
+		ranged_stat	= 54.31;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 26.25;
+		dex_stat	= 26.25;
+		int_stat	= 6.49;
+	}
+}

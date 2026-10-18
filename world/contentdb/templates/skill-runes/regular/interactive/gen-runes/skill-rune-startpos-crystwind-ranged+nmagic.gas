@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_ranged_nmagic_startpos_crystwind]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Crystwind (Uber Level 5)";
+	[skill_rune]
+	{
+		uber_stat	= 5.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 3.25;
+		nmagic_stat	= 3.25;
+		cmagic_stat	= 0.00;
+		str_stat	= 0.85;
+		dex_stat	= 2.00;
+		int_stat	= 2.15;
+	}
+}

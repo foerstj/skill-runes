@@ -3,4 +3,9 @@ melee;Melee
 ranged;Ranged
 nmagic;Nature Magic
 cmagic;Combat Magic
+melee+ranged;Melee + Ranged
 melee+nmagic;Melee + Nature Magic
+melee+cmagic;Melee + Combat Magic
+ranged+nmagic;Ranged + Nature Magic
+ranged+cmagic;Ranged + Combat Magic
+nmagic+cmagic;Nature Magic + Combat Magic

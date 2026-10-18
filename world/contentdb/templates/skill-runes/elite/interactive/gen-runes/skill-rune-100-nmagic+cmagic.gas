@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_nmagic_cmagic_100]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Nature Magic + Combat Magic Uber Level 127 (Regular 100)";
+	[skill_rune]
+	{
+		uber_stat	= 127.67;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 124.25;
+		cmagic_stat	= 124.25;
+		str_stat	= 14.04;
+		dex_stat	= 22.34;
+		int_stat	= 91.28;
+	}
+}

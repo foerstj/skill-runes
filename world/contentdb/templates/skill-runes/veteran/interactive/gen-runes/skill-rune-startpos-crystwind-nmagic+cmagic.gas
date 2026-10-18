@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_nmagic_cmagic_startpos_crystwind]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Nature Magic + Combat Magic Veteran Crystwind (Uber Level 56)";
+	[skill_rune]
+	{
+		uber_stat	= 56.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 51.31;
+		cmagic_stat	= 51.31;
+		str_stat	= 6.16;
+		dex_stat	= 9.80;
+		int_stat	= 40.04;
+	}
+}

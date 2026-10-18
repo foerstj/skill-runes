@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_ranged_cmagic_startpos_demlockscut]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Combat Magic Demlock's Cut (Uber Level 18)";
+	[skill_rune]
+	{
+		uber_stat	= 18.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 13.89;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 13.89;
+		str_stat	= 3.42;
+		dex_stat	= 7.11;
+		int_stat	= 7.47;
+	}
+}

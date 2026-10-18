@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_ranged_cmagic_45]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Combat Magic Uber Level 45";
+	[skill_rune]
+	{
+		uber_stat	= 45.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 40.32;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 40.32;
+		str_stat	= 8.55;
+		dex_stat	= 17.77;
+		int_stat	= 18.67;
+	}
+}

@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_ranged_nmagic_startpos_arhok]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Veteran Arhok (Uber Level 54)";
+	[skill_rune]
+	{
+		uber_stat	= 54.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 49.31;
+		nmagic_stat	= 49.31;
+		cmagic_stat	= 0.00;
+		str_stat	= 9.18;
+		dex_stat	= 21.60;
+		int_stat	= 23.22;
+	}
+}

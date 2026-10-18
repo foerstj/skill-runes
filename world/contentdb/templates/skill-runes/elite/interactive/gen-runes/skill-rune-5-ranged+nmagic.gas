@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_ranged_nmagic_5]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Uber Level 85 (Regular 5)";
+	[skill_rune]
+	{
+		uber_stat	= 85.23;
+		melee_stat	= 0.00;
+		ranged_stat	= 81.81;
+		nmagic_stat	= 81.81;
+		cmagic_stat	= 0.00;
+		str_stat	= 14.49;
+		dex_stat	= 34.09;
+		int_stat	= 36.65;
+	}
+}

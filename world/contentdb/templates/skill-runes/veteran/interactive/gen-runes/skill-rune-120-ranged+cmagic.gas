@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_ranged_cmagic_120]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Combat Magic Uber Level 130 (Regular 120)";
+	[skill_rune]
+	{
+		uber_stat	= 130.80;
+		melee_stat	= 0.00;
+		ranged_stat	= 127.38;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 127.38;
+		str_stat	= 24.85;
+		dex_stat	= 51.67;
+		int_stat	= 54.28;
+	}
+}

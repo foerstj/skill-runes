@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee_ranged_startpos_glacern]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Ranged Glacern (Uber Level 7)";
+	[skill_rune]
+	{
+		uber_stat	= 7.00;
+		melee_stat	= 4.97;
+		ranged_stat	= 4.97;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 3.12;
+		dex_stat	= 3.12;
+		int_stat	= 0.77;
+	}
+}

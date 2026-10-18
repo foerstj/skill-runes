@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee_ranged_startpos_travelercamp]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Ranged Traveler Camp (Uber Level 17)";
+	[skill_rune]
+	{
+		uber_stat	= 17.00;
+		melee_stat	= 13.02;
+		ranged_stat	= 13.02;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 7.57;
+		dex_stat	= 7.56;
+		int_stat	= 1.87;
+	}
+}

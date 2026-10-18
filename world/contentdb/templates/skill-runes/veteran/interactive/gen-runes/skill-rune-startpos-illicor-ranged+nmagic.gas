@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_ranged_nmagic_startpos_illicor]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Veteran Illicor (Uber Level 59)";
+	[skill_rune]
+	{
+		uber_stat	= 59.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 54.31;
+		nmagic_stat	= 54.31;
+		cmagic_stat	= 0.00;
+		str_stat	= 10.03;
+		dex_stat	= 23.60;
+		int_stat	= 25.37;
+	}
+}

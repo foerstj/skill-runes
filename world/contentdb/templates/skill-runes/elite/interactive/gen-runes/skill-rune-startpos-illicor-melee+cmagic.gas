@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee_cmagic_startpos_illicor]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Combat Magic Elite Illicor (Uber Level 88)";
+	[skill_rune]
+	{
+		uber_stat	= 88.00;
+		melee_stat	= 84.55;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 84.55;
+		str_stat	= 33.88;
+		dex_stat	= 19.36;
+		int_stat	= 34.76;
+	}
+}

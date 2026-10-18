@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee_ranged_startpos_hiroth]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Ranged Elite Hiroth (Uber Level 105)";
+	[skill_rune]
+	{
+		uber_stat	= 105.00;
+		melee_stat	= 101.56;
+		ranged_stat	= 101.56;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 46.73;
+		dex_stat	= 46.72;
+		int_stat	= 11.55;
+	}
+}

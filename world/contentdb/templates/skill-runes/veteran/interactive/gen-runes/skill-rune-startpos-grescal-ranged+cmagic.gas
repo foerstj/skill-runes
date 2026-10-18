@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_ranged_cmagic_startpos_grescal]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Combat Magic Veteran Grescal (Uber Level 80)";
+	[skill_rune]
+	{
+		uber_stat	= 80.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 76.53;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 76.53;
+		str_stat	= 15.20;
+		dex_stat	= 31.60;
+		int_stat	= 33.20;
+	}
+}

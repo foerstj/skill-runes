@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_ranged_cmagic_startpos_lang]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Combat Magic Veteran Lang (Uber Level 68)";
+	[skill_rune]
+	{
+		uber_stat	= 68.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 64.18;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 64.18;
+		str_stat	= 12.92;
+		dex_stat	= 26.86;
+		int_stat	= 28.22;
+	}
+}

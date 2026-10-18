@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee_cmagic_startpos_fortresskroth]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Combat Magic Fortress Kroth (Uber Level 38)";
+	[skill_rune]
+	{
+		uber_stat	= 38.00;
+		melee_stat	= 33.32;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 33.32;
+		str_stat	= 14.63;
+		dex_stat	= 8.36;
+		int_stat	= 15.01;
+	}
+}

@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_ranged_nmagic_startpos_demlockscut]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Elite Demlock's Cut (Uber Level 95)";
+	[skill_rune]
+	{
+		uber_stat	= 95.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 91.56;
+		nmagic_stat	= 91.56;
+		cmagic_stat	= 0.00;
+		str_stat	= 16.15;
+		dex_stat	= 38.00;
+		int_stat	= 40.85;
+	}
+}

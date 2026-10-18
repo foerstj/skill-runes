@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_melee_cmagic_startpos_lang]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Combat Magic Veteran Lang (Uber Level 68)";
+	[skill_rune]
+	{
+		uber_stat	= 68.00;
+		melee_stat	= 64.18;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 64.18;
+		str_stat	= 26.18;
+		dex_stat	= 14.96;
+		int_stat	= 26.86;
+	}
+}

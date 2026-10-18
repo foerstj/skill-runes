@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_nmagic_cmagic_60]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Nature Magic + Combat Magic Uber Level 92 (Regular 60)";
+	[skill_rune]
+	{
+		uber_stat	= 92.40;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 89.01;
+		cmagic_stat	= 89.01;
+		str_stat	= 10.16;
+		dex_stat	= 16.17;
+		int_stat	= 66.07;
+	}
+}

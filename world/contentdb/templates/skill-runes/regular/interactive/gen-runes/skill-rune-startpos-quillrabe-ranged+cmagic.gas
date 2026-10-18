@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_ranged_cmagic_startpos_quillrabe]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Combat Magic Quillrabe (Uber Level 42)";
+	[skill_rune]
+	{
+		uber_stat	= 42.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 37.32;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 37.32;
+		str_stat	= 7.98;
+		dex_stat	= 16.59;
+		int_stat	= 17.43;
+	}
+}

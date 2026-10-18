@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_ranged_nmagic_startpos_lang]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Veteran Lang (Uber Level 68)";
+	[skill_rune]
+	{
+		uber_stat	= 68.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 64.18;
+		nmagic_stat	= 64.18;
+		cmagic_stat	= 0.00;
+		str_stat	= 11.56;
+		dex_stat	= 27.20;
+		int_stat	= 29.24;
+	}
+}

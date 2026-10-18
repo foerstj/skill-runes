@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_nmagic_cmagic_startpos_quillrabe]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Nature Magic + Combat Magic Quillrabe (Uber Level 42)";
+	[skill_rune]
+	{
+		uber_stat	= 42.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 37.32;
+		cmagic_stat	= 37.32;
+		str_stat	= 4.62;
+		dex_stat	= 7.35;
+		int_stat	= 30.03;
+	}
+}

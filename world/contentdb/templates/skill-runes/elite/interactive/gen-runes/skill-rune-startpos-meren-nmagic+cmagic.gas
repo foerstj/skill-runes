@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_nmagic_cmagic_startpos_meren]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Nature Magic + Combat Magic Elite Meren (Uber Level 96)";
+	[skill_rune]
+	{
+		uber_stat	= 96.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 92.56;
+		cmagic_stat	= 92.56;
+		str_stat	= 10.56;
+		dex_stat	= 16.80;
+		int_stat	= 68.64;
+	}
+}

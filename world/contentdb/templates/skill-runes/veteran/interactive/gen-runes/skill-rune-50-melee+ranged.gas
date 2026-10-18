@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_melee_ranged_50]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Ranged Uber Level 86 (Regular 50)";
+	[skill_rune]
+	{
+		uber_stat	= 86.00;
+		melee_stat	= 82.55;
+		ranged_stat	= 82.55;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 38.27;
+		dex_stat	= 38.27;
+		int_stat	= 9.46;
+	}
+}

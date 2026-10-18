@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee_ranged_40]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Ranged Uber Level 100 (Regular 40)";
+	[skill_rune]
+	{
+		uber_stat	= 100.87;
+		melee_stat	= 97.44;
+		ranged_stat	= 97.44;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 44.89;
+		dex_stat	= 44.89;
+		int_stat	= 11.10;
+	}
+}

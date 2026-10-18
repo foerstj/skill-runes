@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_ranged_nmagic_startpos_demlockscut]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Veteran Demlock's Cut (Uber Level 66)";
+	[skill_rune]
+	{
+		uber_stat	= 66.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 61.98;
+		nmagic_stat	= 61.98;
+		cmagic_stat	= 0.00;
+		str_stat	= 11.22;
+		dex_stat	= 26.40;
+		int_stat	= 28.38;
+	}
+}

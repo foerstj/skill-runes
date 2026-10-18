@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee_cmagic_startpos_templeruins]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Combat Magic Temple Ruins (Uber Level 32)";
+	[skill_rune]
+	{
+		uber_stat	= 32.00;
+		melee_stat	= 27.33;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 27.33;
+		str_stat	= 12.32;
+		dex_stat	= 7.04;
+		int_stat	= 12.64;
+	}
+}

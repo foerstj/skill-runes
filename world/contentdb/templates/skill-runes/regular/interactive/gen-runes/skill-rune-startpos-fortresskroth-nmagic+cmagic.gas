@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_nmagic_cmagic_startpos_fortresskroth]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Nature Magic + Combat Magic Fortress Kroth (Uber Level 38)";
+	[skill_rune]
+	{
+		uber_stat	= 38.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 33.32;
+		cmagic_stat	= 33.32;
+		str_stat	= 4.18;
+		dex_stat	= 6.65;
+		int_stat	= 27.17;
+	}
+}

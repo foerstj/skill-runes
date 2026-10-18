@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_ranged_cmagic_startpos_lang]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Combat Magic Elite Lang (Uber Level 99)";
+	[skill_rune]
+	{
+		uber_stat	= 99.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 95.56;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 95.56;
+		str_stat	= 18.81;
+		dex_stat	= 39.11;
+		int_stat	= 41.09;
+	}
+}

@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_melee_ranged_startpos_tradercamp]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Ranged Veteran Trader Camp (Uber Level 62)";
+	[skill_rune]
+	{
+		uber_stat	= 62.00;
+		melee_stat	= 57.39;
+		ranged_stat	= 57.39;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 27.59;
+		dex_stat	= 27.59;
+		int_stat	= 6.82;
+	}
+}

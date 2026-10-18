@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_ranged_cmagic_startpos_meren]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Combat Magic Elite Meren (Uber Level 96)";
+	[skill_rune]
+	{
+		uber_stat	= 96.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 92.56;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 92.56;
+		str_stat	= 18.24;
+		dex_stat	= 37.92;
+		int_stat	= 39.84;
+	}
+}

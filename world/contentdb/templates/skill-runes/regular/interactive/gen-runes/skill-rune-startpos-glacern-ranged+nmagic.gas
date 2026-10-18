@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_ranged_nmagic_startpos_glacern]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Glacern (Uber Level 7)";
+	[skill_rune]
+	{
+		uber_stat	= 7.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 4.97;
+		nmagic_stat	= 4.97;
+		cmagic_stat	= 0.00;
+		str_stat	= 1.19;
+		dex_stat	= 2.80;
+		int_stat	= 3.01;
+	}
+}

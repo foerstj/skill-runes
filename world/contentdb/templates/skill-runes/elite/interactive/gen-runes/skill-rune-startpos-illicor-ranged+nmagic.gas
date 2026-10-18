@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_ranged_nmagic_startpos_illicor]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Elite Illicor (Uber Level 88)";
+	[skill_rune]
+	{
+		uber_stat	= 88.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 84.55;
+		nmagic_stat	= 84.55;
+		cmagic_stat	= 0.00;
+		str_stat	= 14.96;
+		dex_stat	= 35.20;
+		int_stat	= 37.84;
+	}
+}

@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_ranged_cmagic_startpos_neenersemporium]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Combat Magic Neener's Emporium (Uber Level 24)";
+	[skill_rune]
+	{
+		uber_stat	= 24.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 19.42;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 19.42;
+		str_stat	= 4.56;
+		dex_stat	= 9.48;
+		int_stat	= 9.96;
+	}
+}

@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee_cmagic_25]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Combat Magic Uber Level 94 (Regular 25)";
+	[skill_rune]
+	{
+		uber_stat	= 94.17;
+		melee_stat	= 90.75;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 90.75;
+		str_stat	= 36.25;
+		dex_stat	= 20.72;
+		int_stat	= 37.20;
+	}
+}

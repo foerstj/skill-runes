@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_ranged_nmagic_startpos_quillrabe]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Veteran Quillrabe (Uber Level 77)";
+	[skill_rune]
+	{
+		uber_stat	= 77.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 73.50;
+		nmagic_stat	= 73.50;
+		cmagic_stat	= 0.00;
+		str_stat	= 13.09;
+		dex_stat	= 30.80;
+		int_stat	= 33.11;
+	}
+}

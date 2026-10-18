@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_ranged_cmagic_startpos_fortresskroth]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Combat Magic Fortress Kroth (Uber Level 38)";
+	[skill_rune]
+	{
+		uber_stat	= 38.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 33.32;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 33.32;
+		str_stat	= 7.22;
+		dex_stat	= 15.01;
+		int_stat	= 15.77;
+	}
+}

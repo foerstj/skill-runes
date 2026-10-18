@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_nmagic_cmagic_startpos_lang]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Nature Magic + Combat Magic Veteran Lang (Uber Level 68)";
+	[skill_rune]
+	{
+		uber_stat	= 68.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 64.18;
+		cmagic_stat	= 64.18;
+		str_stat	= 7.48;
+		dex_stat	= 11.90;
+		int_stat	= 48.62;
+	}
+}

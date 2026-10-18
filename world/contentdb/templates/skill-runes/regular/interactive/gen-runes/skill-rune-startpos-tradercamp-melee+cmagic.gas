@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee_cmagic_startpos_tradercamp]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Combat Magic Trader Camp (Uber Level 11)";
+	[skill_rune]
+	{
+		uber_stat	= 11.00;
+		melee_stat	= 8.44;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 8.44;
+		str_stat	= 4.24;
+		dex_stat	= 2.42;
+		int_stat	= 4.34;
+	}
+}

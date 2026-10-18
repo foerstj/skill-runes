@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_nmagic_cmagic_startpos_elddim]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Nature Magic + Combat Magic Veteran Elddim (Uber Level 54)";
+	[skill_rune]
+	{
+		uber_stat	= 54.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 49.31;
+		cmagic_stat	= 49.31;
+		str_stat	= 5.94;
+		dex_stat	= 9.45;
+		int_stat	= 38.61;
+	}
+}

@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_ranged_nmagic_startpos_neenersemporium]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Neener's Emporium (Uber Level 24)";
+	[skill_rune]
+	{
+		uber_stat	= 24.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 19.42;
+		nmagic_stat	= 19.42;
+		cmagic_stat	= 0.00;
+		str_stat	= 4.08;
+		dex_stat	= 9.60;
+		int_stat	= 10.32;
+	}
+}

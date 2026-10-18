@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_nmagic_cmagic_startpos_stonebridge]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Nature Magic + Combat Magic Stonebridge (Uber Level 3)";
+	[skill_rune]
+	{
+		uber_stat	= 3.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 2.09;
+		cmagic_stat	= 2.09;
+		str_stat	= 0.33;
+		dex_stat	= 0.53;
+		int_stat	= 2.14;
+	}
+}

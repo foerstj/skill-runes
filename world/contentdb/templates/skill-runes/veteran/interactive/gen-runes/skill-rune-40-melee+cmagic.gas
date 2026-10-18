@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_melee_cmagic_40]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Combat Magic Uber Level 79 (Regular 40)";
+	[skill_rune]
+	{
+		uber_stat	= 79.60;
+		melee_stat	= 76.16;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 76.16;
+		str_stat	= 30.65;
+		dex_stat	= 17.51;
+		int_stat	= 31.44;
+	}
+}

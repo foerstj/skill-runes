@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee_ranged_startpos_crystwind]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Ranged Elite Crystwind (Uber Level 87)";
+	[skill_rune]
+	{
+		uber_stat	= 87.00;
+		melee_stat	= 83.55;
+		ranged_stat	= 83.55;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 38.72;
+		dex_stat	= 38.72;
+		int_stat	= 9.57;
+	}
+}

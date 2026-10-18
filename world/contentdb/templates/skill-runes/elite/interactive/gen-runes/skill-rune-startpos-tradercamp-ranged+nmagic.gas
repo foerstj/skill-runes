@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_ranged_nmagic_startpos_tradercamp]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Elite Trader Camp (Uber Level 90)";
+	[skill_rune]
+	{
+		uber_stat	= 90.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 86.56;
+		nmagic_stat	= 86.56;
+		cmagic_stat	= 0.00;
+		str_stat	= 15.30;
+		dex_stat	= 36.00;
+		int_stat	= 38.70;
+	}
+}

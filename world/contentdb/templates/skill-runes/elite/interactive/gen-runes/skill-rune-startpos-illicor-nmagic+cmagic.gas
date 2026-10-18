@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_nmagic_cmagic_startpos_illicor]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Nature Magic + Combat Magic Elite Illicor (Uber Level 88)";
+	[skill_rune]
+	{
+		uber_stat	= 88.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 84.55;
+		cmagic_stat	= 84.55;
+		str_stat	= 9.68;
+		dex_stat	= 15.40;
+		int_stat	= 62.92;
+	}
+}

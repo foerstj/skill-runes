@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_melee_ranged_startpos_quillrabe]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Ranged Veteran Quillrabe (Uber Level 77)";
+	[skill_rune]
+	{
+		uber_stat	= 77.00;
+		melee_stat	= 73.50;
+		ranged_stat	= 73.50;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 34.27;
+		dex_stat	= 34.27;
+		int_stat	= 8.47;
+	}
+}

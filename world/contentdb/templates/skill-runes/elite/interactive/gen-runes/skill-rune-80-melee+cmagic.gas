@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee_cmagic_80]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Combat Magic Uber Level 118 (Regular 80)";
+	[skill_rune]
+	{
+		uber_stat	= 118.73;
+		melee_stat	= 115.31;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 115.31;
+		str_stat	= 45.71;
+		dex_stat	= 26.12;
+		int_stat	= 46.90;
+	}
+}

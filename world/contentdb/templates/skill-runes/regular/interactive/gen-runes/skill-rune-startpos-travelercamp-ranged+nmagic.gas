@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_ranged_nmagic_startpos_travelercamp]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Traveler Camp (Uber Level 17)";
+	[skill_rune]
+	{
+		uber_stat	= 17.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 13.02;
+		nmagic_stat	= 13.02;
+		cmagic_stat	= 0.00;
+		str_stat	= 2.89;
+		dex_stat	= 6.80;
+		int_stat	= 7.31;
+	}
+}

@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee_cmagic_5]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Combat Magic Uber Level 5";
+	[skill_rune]
+	{
+		uber_stat	= 5.00;
+		melee_stat	= 3.25;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 3.25;
+		str_stat	= 1.93;
+		dex_stat	= 1.10;
+		int_stat	= 1.98;
+	}
+}

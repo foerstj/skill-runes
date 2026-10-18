@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_melee_ranged_startpos_meren]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Ranged Veteran Meren (Uber Level 64)";
+	[skill_rune]
+	{
+		uber_stat	= 64.00;
+		melee_stat	= 59.64;
+		ranged_stat	= 59.64;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 28.48;
+		dex_stat	= 28.48;
+		int_stat	= 7.04;
+	}
+}

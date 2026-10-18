@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_ranged_nmagic_startpos_grescal]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Nature Magic Veteran Grescal (Uber Level 80)";
+	[skill_rune]
+	{
+		uber_stat	= 80.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 76.53;
+		nmagic_stat	= 76.53;
+		cmagic_stat	= 0.00;
+		str_stat	= 13.60;
+		dex_stat	= 32.00;
+		int_stat	= 34.40;
+	}
+}

@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_nmagic_cmagic_45]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Nature Magic + Combat Magic Uber Level 82 (Regular 45)";
+	[skill_rune]
+	{
+		uber_stat	= 82.80;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 79.36;
+		cmagic_stat	= 79.36;
+		str_stat	= 9.11;
+		dex_stat	= 14.49;
+		int_stat	= 59.20;
+	}
+}

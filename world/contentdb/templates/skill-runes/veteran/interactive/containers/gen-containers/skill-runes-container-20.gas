@@ -11,7 +11,12 @@
             il_main = 2W_skill_rune_ranged_20;
             il_main = 2W_skill_rune_nmagic_20;
             il_main = 2W_skill_rune_cmagic_20;
+            il_main = 2W_skill_rune_melee_ranged_20;
             il_main = 2W_skill_rune_melee_nmagic_20;
+            il_main = 2W_skill_rune_melee_cmagic_20;
+            il_main = 2W_skill_rune_ranged_nmagic_20;
+            il_main = 2W_skill_rune_ranged_cmagic_20;
+            il_main = 2W_skill_rune_nmagic_cmagic_20;
         }
     }
 }

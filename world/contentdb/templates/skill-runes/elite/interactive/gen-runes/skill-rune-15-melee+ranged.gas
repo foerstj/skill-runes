@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee_ranged_15]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Ranged Uber Level 89 (Regular 15)";
+	[skill_rune]
+	{
+		uber_stat	= 89.70;
+		melee_stat	= 86.28;
+		ranged_stat	= 86.28;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 39.92;
+		dex_stat	= 39.92;
+		int_stat	= 9.87;
+	}
+}

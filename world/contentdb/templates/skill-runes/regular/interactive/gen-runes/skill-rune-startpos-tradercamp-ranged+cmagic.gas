@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_ranged_cmagic_startpos_tradercamp]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Ranged + Combat Magic Trader Camp (Uber Level 11)";
+	[skill_rune]
+	{
+		uber_stat	= 11.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 8.44;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 8.44;
+		str_stat	= 2.09;
+		dex_stat	= 4.35;
+		int_stat	= 4.56;
+	}
+}

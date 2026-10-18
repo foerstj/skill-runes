@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_nmagic_cmagic_80]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Nature Magic + Combat Magic Uber Level 80";
+	[skill_rune]
+	{
+		uber_stat	= 80.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 76.53;
+		cmagic_stat	= 76.53;
+		str_stat	= 8.80;
+		dex_stat	= 14.00;
+		int_stat	= 57.20;
+	}
+}

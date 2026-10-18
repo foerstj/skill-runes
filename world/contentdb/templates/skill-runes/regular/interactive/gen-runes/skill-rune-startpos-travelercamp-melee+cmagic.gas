@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee_cmagic_startpos_travelercamp]
+{
+	specializes = base_skill_rune_multi;
+
+	common:screen_name = "Melee + Combat Magic Traveler Camp (Uber Level 17)";
+	[skill_rune]
+	{
+		uber_stat	= 17.00;
+		melee_stat	= 13.02;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 13.02;
+		str_stat	= 6.54;
+		dex_stat	= 3.74;
+		int_stat	= 6.71;
+	}
+}
