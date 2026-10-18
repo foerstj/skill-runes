@@ -115,21 +115,21 @@
     {
         [other]
         {
-            il_main = skill_rune_melee+nmagic_5;
-            il_main = skill_rune_melee+nmagic_10;
-            il_main = skill_rune_melee+nmagic_15;
-            il_main = skill_rune_melee+nmagic_20;
-            il_main = skill_rune_melee+nmagic_25;
-            il_main = skill_rune_melee+nmagic_30;
-            il_main = skill_rune_melee+nmagic_35;
-            il_main = skill_rune_melee+nmagic_40;
-            il_main = skill_rune_melee+nmagic_45;
-            il_main = skill_rune_melee+nmagic_50;
-            il_main = skill_rune_melee+nmagic_60;
-            il_main = skill_rune_melee+nmagic_80;
-            il_main = skill_rune_melee+nmagic_100;
-            il_main = skill_rune_melee+nmagic_120;
-            il_main = skill_rune_melee+nmagic_150;
+            il_main = skill_rune_melee_nmagic_5;
+            il_main = skill_rune_melee_nmagic_10;
+            il_main = skill_rune_melee_nmagic_15;
+            il_main = skill_rune_melee_nmagic_20;
+            il_main = skill_rune_melee_nmagic_25;
+            il_main = skill_rune_melee_nmagic_30;
+            il_main = skill_rune_melee_nmagic_35;
+            il_main = skill_rune_melee_nmagic_40;
+            il_main = skill_rune_melee_nmagic_45;
+            il_main = skill_rune_melee_nmagic_50;
+            il_main = skill_rune_melee_nmagic_60;
+            il_main = skill_rune_melee_nmagic_80;
+            il_main = skill_rune_melee_nmagic_100;
+            il_main = skill_rune_melee_nmagic_120;
+            il_main = skill_rune_melee_nmagic_150;
         }
     }
 }

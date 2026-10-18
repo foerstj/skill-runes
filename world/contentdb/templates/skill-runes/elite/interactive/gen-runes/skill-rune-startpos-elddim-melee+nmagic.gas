@@ -1,4 +1,4 @@
-[t:template,n:3W_skill_rune_melee+nmagic_startpos_elddim]
+[t:template,n:3W_skill_rune_melee_nmagic_startpos_elddim]
 {
 	specializes = base_skill_rune_multi;
 

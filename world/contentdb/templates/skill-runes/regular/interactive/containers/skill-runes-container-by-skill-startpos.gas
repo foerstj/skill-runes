@@ -147,29 +147,29 @@
     {
         [other]
         {
-            il_main = skill_rune_melee+nmagic_startpos_farmhouse;
-            il_main = skill_rune_melee+nmagic_startpos_stonebridge;
-            il_main = skill_rune_melee+nmagic_startpos_glacern;
-            il_main = skill_rune_melee+nmagic_startpos_jeriahscabin;
-            il_main = skill_rune_melee+nmagic_startpos_travelercamp;
-            il_main = skill_rune_melee+nmagic_startpos_darkswamp;
-            il_main = skill_rune_melee+nmagic_startpos_templeruins;
-            il_main = skill_rune_melee+nmagic_startpos_fortresskroth;
-            il_main = skill_rune_melee+nmagic_startpos_droogvillage;
-            il_main = skill_rune_melee+nmagic_startpos_castledungeon;
-            il_main = skill_rune_melee+nmagic_startpos_elddim;
-            il_main = skill_rune_melee+nmagic_startpos_crystwind;
-            il_main = skill_rune_melee+nmagic_startpos_fallraen;
-            il_main = skill_rune_melee+nmagic_startpos_meren;
-            il_main = skill_rune_melee+nmagic_startpos_lang;
-            il_main = skill_rune_melee+nmagic_startpos_quillrabe;
-            il_main = skill_rune_melee+nmagic_startpos_hiroth;
-            il_main = skill_rune_melee+nmagic_startpos_grescal;
-            il_main = skill_rune_melee+nmagic_startpos_arhok;
-            il_main = skill_rune_melee+nmagic_startpos_illicor;
-            il_main = skill_rune_melee+nmagic_startpos_tradercamp;
-            il_main = skill_rune_melee+nmagic_startpos_demlockscut;
-            il_main = skill_rune_melee+nmagic_startpos_neenersemporium;
+            il_main = skill_rune_melee_nmagic_startpos_farmhouse;
+            il_main = skill_rune_melee_nmagic_startpos_stonebridge;
+            il_main = skill_rune_melee_nmagic_startpos_glacern;
+            il_main = skill_rune_melee_nmagic_startpos_jeriahscabin;
+            il_main = skill_rune_melee_nmagic_startpos_travelercamp;
+            il_main = skill_rune_melee_nmagic_startpos_darkswamp;
+            il_main = skill_rune_melee_nmagic_startpos_templeruins;
+            il_main = skill_rune_melee_nmagic_startpos_fortresskroth;
+            il_main = skill_rune_melee_nmagic_startpos_droogvillage;
+            il_main = skill_rune_melee_nmagic_startpos_castledungeon;
+            il_main = skill_rune_melee_nmagic_startpos_elddim;
+            il_main = skill_rune_melee_nmagic_startpos_crystwind;
+            il_main = skill_rune_melee_nmagic_startpos_fallraen;
+            il_main = skill_rune_melee_nmagic_startpos_meren;
+            il_main = skill_rune_melee_nmagic_startpos_lang;
+            il_main = skill_rune_melee_nmagic_startpos_quillrabe;
+            il_main = skill_rune_melee_nmagic_startpos_hiroth;
+            il_main = skill_rune_melee_nmagic_startpos_grescal;
+            il_main = skill_rune_melee_nmagic_startpos_arhok;
+            il_main = skill_rune_melee_nmagic_startpos_illicor;
+            il_main = skill_rune_melee_nmagic_startpos_tradercamp;
+            il_main = skill_rune_melee_nmagic_startpos_demlockscut;
+            il_main = skill_rune_melee_nmagic_startpos_neenersemporium;
         }
     }
 }

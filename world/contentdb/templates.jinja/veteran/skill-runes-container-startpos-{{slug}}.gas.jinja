@@ -8,7 +8,7 @@
         [other]
         {
             {% for skill in skills %}
-            il_main = 2W_skill_rune_{{skill.skill}}_startpos_{{slug}};
+            il_main = 2W_skill_rune_{{skill.skill | replace('+', '_')}}_startpos_{{slug}};
             {% endfor %}
         }
     }

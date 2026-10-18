@@ -1,4 +1,4 @@
-[t:template,n:skill_rune_melee+nmagic_80]
+[t:template,n:skill_rune_melee_nmagic_80]
 {
 	specializes = base_skill_rune_multi;
 

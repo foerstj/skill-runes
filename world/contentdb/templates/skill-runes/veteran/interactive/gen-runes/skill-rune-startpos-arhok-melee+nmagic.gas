@@ -1,4 +1,4 @@
-[t:template,n:2W_skill_rune_melee+nmagic_startpos_arhok]
+[t:template,n:2W_skill_rune_melee_nmagic_startpos_arhok]
 {
 	specializes = base_skill_rune_multi;
 

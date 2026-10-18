@@ -1,4 +1,4 @@
-[t:template,n:skill_rune_melee+nmagic_startpos_fallraen]
+[t:template,n:skill_rune_melee_nmagic_startpos_fallraen]
 {
 	specializes = base_skill_rune_multi;
 

@@ -1,7 +1,7 @@
 {% set skill_names = {s.skill: s.skill_name for s in skillz} %}
 {% set skill_name = skill_names[skills] %}
 {% set is_multiclass = '+' in skills %}
-[t:template,n:3W_skill_rune_{{skills}}_{{level}}]
+[t:template,n:3W_skill_rune_{{skills | replace('+', '_')}}_{{level}}]
 {
 	specializes = base_skill_rune_{{skills if not is_multiclass else 'multi'}};
 
