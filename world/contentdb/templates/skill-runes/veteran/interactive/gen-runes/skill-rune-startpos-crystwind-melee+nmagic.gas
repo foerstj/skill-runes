@@ -1,6 +1,6 @@
 [t:template,n:2W_skill_rune_melee+nmagic_startpos_crystwind]
 {
-	specializes = base_skill_rune_melee+nmagic;
+	specializes = base_skill_rune_multi;
 
 	common:screen_name = "Melee + Nature Magic Veteran Crystwind (Uber Level 56)";
 	[skill_rune]

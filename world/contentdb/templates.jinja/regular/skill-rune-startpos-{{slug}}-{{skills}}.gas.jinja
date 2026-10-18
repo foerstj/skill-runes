@@ -3,7 +3,7 @@
 {% set is_multiclass = '+' in skills %}
 [t:template,n:skill_rune_{{skills}}_startpos_{{slug}}]
 {
-	specializes = base_skill_rune_{{skills}};
+	specializes = base_skill_rune_{{skills if not is_multiclass else 'multi'}};
 
 	common:screen_name = "{{skill_name}} {{startpos}} ({% if is_multiclass %}Uber {% endif %}Level {{level}})";
 	[skill_rune]

@@ -1,6 +1,6 @@
 [t:template,n:3W_skill_rune_melee+nmagic_startpos_demlockscut]
 {
-	specializes = base_skill_rune_melee+nmagic;
+	specializes = base_skill_rune_multi;
 
 	common:screen_name = "Melee + Nature Magic Elite Demlock's Cut (Uber Level 95)";
 	[skill_rune]
