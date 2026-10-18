@@ -26,6 +26,13 @@
 	  p position = 2.60457,0,-2.32738,0xf0fb4f6c;
 	}
 }
+[t:skill_rune_melee_nmagic_10,n:0x00100017]
+{
+	[placement]
+	{
+	  p position = -0.46527,0,-3.80936,0xf0fb4f6c;
+	}
+}
 [t:skill_rune_0,n:0x00100006]
 {
 	[placement]
@@ -38,6 +45,13 @@
 	[placement]
 	{
 	  p position = -1.61668,0.020716,-2.0131,0x15e7e797;
+	}
+}
+[t:skill_rune_melee_nmagic_startpos_quillrabe,n:0x00100018]
+{
+	[placement]
+	{
+	  p position = 0.189383,-0.300001,-3.83027,0x42421e38;
 	}
 }
 [t:skill_rune_melee_startpos_quillrabe,n:0x0010001b]

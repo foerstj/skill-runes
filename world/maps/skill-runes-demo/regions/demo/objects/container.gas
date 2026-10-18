@@ -5,6 +5,13 @@
 	  p position = -0.00274079,0,2.37827,0xf0fb4f6c;
 	}
 }
+[t:skill_runes_container_melee_nmagic,n:0x0010000a]
+{
+	[placement]
+	{
+	  p position = 0.0908079,-0.299997,-3.10801,0x0015d157;
+	}
+}
 [t:skill_runes_container_melee,n:0x0010000d]
 {
 	[placement]
@@ -101,5 +108,13 @@
 	[placement]
 	{
 	  p position = 0.0830121,-0.299999,2.11326,0x42421e38;
+	}
+}
+[t:skill_runes_container_melee_nmagic_startpos,n:0x00100016]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -3.19706,4,-0.881455,0x53873209;
 	}
 }
