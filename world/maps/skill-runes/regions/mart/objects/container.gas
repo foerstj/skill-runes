@@ -1,29 +1,161 @@
+[t:skill_runes_container_melee_ranged,n:0x00100004]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
+	[placement]
+	{
+	  p position = 4.76606,-2,4.52971,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_melee_nmagic,n:0x00100005]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
+	[placement]
+	{
+	  p position = 4.78286,-2,3.54624,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_melee_cmagic,n:0x00100006]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
+	[placement]
+	{
+	  p position = 4.76768,-2,2.49975,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_ranged_nmagic,n:0x00100007]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
+	[placement]
+	{
+	  p position = 4.76848,-2,1.50063,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_ranged_cmagic,n:0x00100008]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
+	[placement]
+	{
+	  p position = 4.75325,-2,0.51734,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_nmagic_cmagic,n:0x00100009]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
+	[placement]
+	{
+	  p position = 4.72203,-2,-0.513802,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_melee_ranged_startpos,n:0x0010000a]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
+	[placement]
+	{
+	  p position = -0.219551,-2,4.51531,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_melee_nmagic_startpos,n:0x0010000b]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
+	[placement]
+	{
+	  p position = -0.235152,-2,3.55366,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_melee_cmagic_startpos,n:0x0010000c]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
+	[placement]
+	{
+	  p position = -0.201589,-2,2.51127,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_ranged_nmagic_startpos,n:0x0010000d]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
+	[placement]
+	{
+	  p position = -0.233515,-2,1.50151,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_ranged_cmagic_startpos,n:0x0010000e]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
+	[placement]
+	{
+	  p position = -0.183604,-2,0.475498,0xe32e7d1f;
+	}
+}
+[t:skill_runes_container_nmagic_cmagic_startpos,n:0x0010000f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 0.8;
+	}
+	[placement]
+	{
+	  p position = -0.248273,-2,-0.518688,0xe32e7d1f;
+	}
+}
 [t:skill_runes_container_melee,n:0x001001fd]
 {
 	[placement]
 	{
-	  p position = 5.20901,-2,4.97476,0xe32e7d1f;
+	  p position = 6.14464,-2,4.96794,0xe32e7d1f;
 	}
 }
 [t:skill_runes_container_ranged,n:0x001001fe]
 {
 	[placement]
 	{
-	  p position = 5.21274,-2,2.99021,0xe32e7d1f;
+	  p position = 6.14837,-2,2.98339,0xe32e7d1f;
 	}
 }
 [t:skill_runes_container_nmagic,n:0x001001ff]
 {
 	[placement]
 	{
-	  p position = 5.21649,-2,0.997721,0xe32e7d1f;
+	  p position = 6.15212,-2,0.990901,0xe32e7d1f;
 	}
 }
 [t:skill_runes_container_cmagic,n:0x00100200]
 {
 	[placement]
 	{
-	  p position = 5.25839,-2,-0.981356,0xe32e7d1f;
+	  p position = 6.19402,-2,-0.988176,0xe32e7d1f;
 	}
 }
 [t:skill_runes_container_melee_startpos,n:0x00100201]
