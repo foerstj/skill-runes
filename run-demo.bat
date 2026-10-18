@@ -1,5 +1,5 @@
 :: name of map
-set map=skill-runes-demo
+set map=skill-runes
 
 :: path of Bits dir
 set bits=%~dp0.
@@ -12,7 +12,7 @@ call "%bits%\build.bat" %*
 ::pause
 
 :: Run it!
-"%ds%\DSLOA.exe" nointro=true map=%map%
+"%ds%\DSLOA.exe" nointro=true map=%map%-demo
 
 :: Cleanup resources so as not to confuse Siege Editor
 call "%bits%\cleanup.bat" %*
