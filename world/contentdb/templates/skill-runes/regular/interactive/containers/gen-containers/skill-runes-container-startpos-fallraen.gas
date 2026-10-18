@@ -11,6 +11,7 @@
             il_main = skill_rune_ranged_startpos_fallraen;
             il_main = skill_rune_nmagic_startpos_fallraen;
             il_main = skill_rune_cmagic_startpos_fallraen;
+            il_main = skill_rune_melee+nmagic_startpos_fallraen;
         }
     }
 }

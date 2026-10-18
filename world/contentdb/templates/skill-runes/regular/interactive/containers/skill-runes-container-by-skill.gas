@@ -106,3 +106,30 @@
         }
     }
 }
+[t:template,n:skill_runes_container_melee+nmagic]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Skill Runes - Melee + Nature Magic";
+    [inventory]
+    {
+        [other]
+        {
+            il_main = skill_rune_melee+nmagic_5;
+            il_main = skill_rune_melee+nmagic_10;
+            il_main = skill_rune_melee+nmagic_15;
+            il_main = skill_rune_melee+nmagic_20;
+            il_main = skill_rune_melee+nmagic_25;
+            il_main = skill_rune_melee+nmagic_30;
+            il_main = skill_rune_melee+nmagic_35;
+            il_main = skill_rune_melee+nmagic_40;
+            il_main = skill_rune_melee+nmagic_45;
+            il_main = skill_rune_melee+nmagic_50;
+            il_main = skill_rune_melee+nmagic_60;
+            il_main = skill_rune_melee+nmagic_80;
+            il_main = skill_rune_melee+nmagic_100;
+            il_main = skill_rune_melee+nmagic_120;
+            il_main = skill_rune_melee+nmagic_150;
+        }
+    }
+}

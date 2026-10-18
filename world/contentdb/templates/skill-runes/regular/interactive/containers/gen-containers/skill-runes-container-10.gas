@@ -11,6 +11,7 @@
             il_main = skill_rune_ranged_10;
             il_main = skill_rune_nmagic_10;
             il_main = skill_rune_cmagic_10;
+            il_main = skill_rune_melee+nmagic_10;
         }
     }
 }
