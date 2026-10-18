@@ -1,0 +1,16 @@
+[t:template,n:3W_skill_runes_container_startpos_darkswamp]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Skill Runes Elite Dark Swamp";
+    [inventory]
+    {
+        [other]
+        {
+            il_main = 3W_skill_rune_melee_startpos_darkswamp;
+            il_main = 3W_skill_rune_ranged_startpos_darkswamp;
+            il_main = 3W_skill_rune_nmagic_startpos_darkswamp;
+            il_main = 3W_skill_rune_cmagic_startpos_darkswamp;
+        }
+    }
+}

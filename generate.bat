@@ -21,6 +21,8 @@ venv\Scripts\python -m jinja "world\contentdb\templates.jinja\veteran\skill-rune
 if %errorlevel% neq 0 pause
 venv\Scripts\python -m jinja "world\contentdb\templates.jinja\veteran\skill-runes-container-{{level}}.gas.jinja" world\contentdb\templates\skill-runes\veteran\interactive\containers\gen-containers --bits "%bits%"
 if %errorlevel% neq 0 pause
+venv\Scripts\python -m jinja "world\contentdb\templates.jinja\veteran\skill-runes-container-startpos-{{slug}}.gas.jinja" world\contentdb\templates\skill-runes\veteran\interactive\containers\gen-containers --bits "%bits%"
+if %errorlevel% neq 0 pause
 venv\Scripts\python -m jinja "world\contentdb\templates.jinja\veteran\skill-runes-container-by-skill.gas.jinja" world\contentdb\templates\skill-runes\veteran\interactive\containers --for-all "world\contentdb\templates.jinja\veteran\skill-runes.csv" --bits "%bits%"
 if %errorlevel% neq 0 pause
 
@@ -29,6 +31,8 @@ if %errorlevel% neq 0 pause
 venv\Scripts\python -m jinja "world\contentdb\templates.jinja\elite\skill-rune-startpos-{{slug}}-{{skills}}.gas.jinja" world\contentdb\templates\skill-runes\elite\interactive\gen-runes --for-each "world\contentdb\templates.jinja\elite\skill-runes-startpos.csv" --bits "%bits%"
 if %errorlevel% neq 0 pause
 venv\Scripts\python -m jinja "world\contentdb\templates.jinja\elite\skill-runes-container-{{level}}.gas.jinja" world\contentdb\templates\skill-runes\elite\interactive\containers\gen-containers --bits "%bits%"
+if %errorlevel% neq 0 pause
+venv\Scripts\python -m jinja "world\contentdb\templates.jinja\elite\skill-runes-container-startpos-{{slug}}.gas.jinja" world\contentdb\templates\skill-runes\elite\interactive\containers\gen-containers --bits "%bits%"
 if %errorlevel% neq 0 pause
 venv\Scripts\python -m jinja "world\contentdb\templates.jinja\elite\skill-runes-container-by-skill.gas.jinja" world\contentdb\templates\skill-runes\elite\interactive\containers --for-all "world\contentdb\templates.jinja\elite\skill-runes.csv" --bits "%bits%"
 if %errorlevel% neq 0 pause

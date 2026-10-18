@@ -1,0 +1,16 @@
+[t:template,n:2W_skill_runes_container_startpos_lang]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Skill Runes Veteran Lang";
+    [inventory]
+    {
+        [other]
+        {
+            il_main = 2W_skill_rune_melee_startpos_lang;
+            il_main = 2W_skill_rune_ranged_startpos_lang;
+            il_main = 2W_skill_rune_nmagic_startpos_lang;
+            il_main = 2W_skill_rune_cmagic_startpos_lang;
+        }
+    }
+}
