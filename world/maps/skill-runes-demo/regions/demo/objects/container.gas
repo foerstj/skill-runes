@@ -33,11 +33,39 @@
 	  p position = 3.03034,-0.300001,1.26944,0x0015d157;
 	}
 }
+[t:skill_runes_container_melee_startpos,n:0x00100011]
+{
+	[placement]
+	{
+	  p position = -2.83419,-0.150896,-0.745522,0x0015d157;
+	}
+}
+[t:skill_runes_container_ranged_startpos,n:0x00100012]
+{
+	[placement]
+	{
+	  p position = -0.923989,-0.131151,-0.761429,0x0015d157;
+	}
+}
+[t:skill_runes_container_nmagic_startpos,n:0x00100013]
+{
+	[placement]
+	{
+	  p position = 1.25287,-0.00620937,-0.788493,0x0015d157;
+	}
+}
+[t:skill_runes_container_cmagic_startpos,n:0x00100014]
+{
+	[placement]
+	{
+	  p position = 2.77842,-0.0556841,-0.380327,0x0015d157;
+	}
+}
 [t:skill_runes_container_0,n:0x00100007]
 {
 	[placement]
 	{
-	  p position = -2.40389,-0.104007,-0.979964,0x1815c9cb;
+	  p position = -2.41649,-0.104007,-1.13479,0x1815c9cb;
 	}
 }
 [t:skill_runes_container_25,n:0x00100008]
@@ -59,5 +87,19 @@
 	[placement]
 	{
 	  p position = 2.91884,-0.274168,-1.17716,0x1815c9cb;
+	}
+}
+[t:skill_runes_container_startpos_fortresskroth,n:0x00100019]
+{
+	[placement]
+	{
+	  p position = 3.6884,-0.299999,3.53578,0x42421e38;
+	}
+}
+[t:skill_runes_container_startpos_quillrabe,n:0x0010001a]
+{
+	[placement]
+	{
+	  p position = 0.0830121,-0.299999,2.11326,0x42421e38;
 	}
 }

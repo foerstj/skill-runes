@@ -40,14 +40,39 @@
 	  p position = -1.61668,0.020716,-2.0131,0x15e7e797;
 	}
 }
-[t:gold,n:0x0010000a]
+[t:skill_rune_melee_startpos_quillrabe,n:0x0010001b]
 {
-	[aspect]
-	{
-	  i gold_value = 9999999;
-	}
 	[placement]
 	{
-	  p position = -2.06263,-0.299999,0.204639,0x42421e38;
+	  p position = -1.99745,0.0939217,-2.02783,0x42421e38;
+	}
+}
+[t:skill_rune_ranged_startpos_quillrabe,n:0x0010001c]
+{
+	[placement]
+	{
+	  p position = -0.525191,-0.0805073,-2.2459,0x42421e38;
+	}
+}
+[t:skill_rune_nmagic_startpos_quillrabe,n:0x0010001d]
+{
+	[placement]
+	{
+	  p position = 1.12605,0.273088,-1.86759,0x42421e38;
+	}
+}
+[t:skill_rune_cmagic_startpos_quillrabe,n:0x0010001e]
+{
+	[placement]
+	{
+	  p position = 2.66261,-0.186457,-2.20197,0x42421e38;
+	}
+}
+[t:skill_rune_melee_startpos_fortresskroth,n:0x00100015]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.11676,4.34379,-1.09024,0xb50cf584;
 	}
 }
