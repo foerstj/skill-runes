@@ -106,7 +106,7 @@
         }
     }
 }
-[t:template,n:skill_runes_container_melee+nmagic]
+[t:template,n:skill_runes_container_melee_nmagic]
 {
     specializes = base_skill_runes_container;
 

@@ -1,5 +1,5 @@
 {% for skill in skills %}
-[t:template,n:3W_skill_runes_container_{{ skill.skill }}_startpos]
+[t:template,n:3W_skill_runes_container_{{ skill.skill | replace('+', '_') }}_startpos]
 {
     specializes = base_skill_runes_container;
 

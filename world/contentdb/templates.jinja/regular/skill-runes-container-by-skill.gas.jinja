@@ -1,5 +1,5 @@
 {% for skill in skills %}
-[t:template,n:skill_runes_container_{{ skill.skill }}]
+[t:template,n:skill_runes_container_{{ skill.skill | replace('+', '_') }}]
 {
     specializes = base_skill_runes_container;
 

@@ -98,7 +98,7 @@
         }
     }
 }
-[t:template,n:3W_skill_runes_container_melee+nmagic_startpos]
+[t:template,n:3W_skill_runes_container_melee_nmagic_startpos]
 {
     specializes = base_skill_runes_container;
 
