@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee+nmagic_startpos_illicor]
+{
+	specializes = base_skill_rune_melee+nmagic;
+
+	common:screen_name = " Illicor (Level 8)";
+	[skill_rune]
+	{
+		uber_stat	= 8.00;
+		melee_stat	= 6.04;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 6.04;
+		cmagic_stat	= 0.00;
+		str_stat	= 2.92;
+		dex_stat	= 1.80;
+		int_stat	= 3.28;
+	}
+}

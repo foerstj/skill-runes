@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_melee+nmagic_30]
+{
+	specializes = base_skill_rune_melee+nmagic;
+
+	common:screen_name = " Level 73 (Regular 30)";
+	[skill_rune]
+	{
+		uber_stat	= 73.20;
+		melee_stat	= 69.65;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 69.65;
+		cmagic_stat	= 0.00;
+		str_stat	= 26.72;
+		dex_stat	= 16.47;
+		int_stat	= 30.01;
+	}
+}

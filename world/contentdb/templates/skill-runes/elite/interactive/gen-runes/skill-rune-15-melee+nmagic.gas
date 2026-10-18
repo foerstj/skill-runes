@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee+nmagic_15]
+{
+	specializes = base_skill_rune_melee+nmagic;
+
+	common:screen_name = " Level 89 (Regular 15)";
+	[skill_rune]
+	{
+		uber_stat	= 89.70;
+		melee_stat	= 86.28;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 86.28;
+		cmagic_stat	= 0.00;
+		str_stat	= 32.74;
+		dex_stat	= 20.18;
+		int_stat	= 36.78;
+	}
+}

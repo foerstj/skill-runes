@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee+nmagic_20]
+{
+	specializes = base_skill_rune_melee+nmagic;
+
+	common:screen_name = " Level 20";
+	[skill_rune]
+	{
+		uber_stat	= 20.00;
+		melee_stat	= 15.70;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 15.70;
+		cmagic_stat	= 0.00;
+		str_stat	= 7.30;
+		dex_stat	= 4.50;
+		int_stat	= 8.20;
+	}
+}

@@ -1,7 +1,7 @@
 :: path of Bits dir
 set bits=%~dp0.
 
-set skills=melee ranged nmagic cmagic
+set skills=melee ranged nmagic cmagic melee+nmagic
 
 pushd "%GasPy%"
 venv\Scripts\python -m skill_progression --output-csv "%bits%" --class-lookup "%bits%" --levels 5:50:5 60:100:20 120:150:30 --skills %skills%

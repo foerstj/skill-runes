@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee+nmagic_startpos_crystwind]
+{
+	specializes = base_skill_rune_melee+nmagic;
+
+	common:screen_name = " Crystwind (Level 5)";
+	[skill_rune]
+	{
+		uber_stat	= 5.00;
+		melee_stat	= 3.25;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 3.25;
+		cmagic_stat	= 0.00;
+		str_stat	= 1.83;
+		dex_stat	= 1.12;
+		int_stat	= 2.05;
+	}
+}

@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_melee+nmagic_startpos_tradercamp]
+{
+	specializes = base_skill_rune_melee+nmagic;
+
+	common:screen_name = " Veteran Trader Camp (Level 62)";
+	[skill_rune]
+	{
+		uber_stat	= 62.00;
+		melee_stat	= 57.39;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 57.39;
+		cmagic_stat	= 0.00;
+		str_stat	= 22.63;
+		dex_stat	= 13.95;
+		int_stat	= 25.42;
+	}
+}

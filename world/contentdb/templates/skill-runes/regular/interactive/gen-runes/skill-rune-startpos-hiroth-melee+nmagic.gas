@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee+nmagic_startpos_hiroth]
+{
+	specializes = base_skill_rune_melee+nmagic;
+
+	common:screen_name = " Hiroth (Level 46)";
+	[skill_rune]
+	{
+		uber_stat	= 46.00;
+		melee_stat	= 41.32;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 41.32;
+		cmagic_stat	= 0.00;
+		str_stat	= 16.79;
+		dex_stat	= 10.35;
+		int_stat	= 18.86;
+	}
+}

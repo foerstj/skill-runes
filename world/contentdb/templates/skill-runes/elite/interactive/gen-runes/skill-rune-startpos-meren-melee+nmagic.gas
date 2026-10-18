@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee+nmagic_startpos_meren]
+{
+	specializes = base_skill_rune_melee+nmagic;
+
+	common:screen_name = " Elite Meren (Level 96)";
+	[skill_rune]
+	{
+		uber_stat	= 96.00;
+		melee_stat	= 92.56;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 92.56;
+		cmagic_stat	= 0.00;
+		str_stat	= 35.04;
+		dex_stat	= 21.60;
+		int_stat	= 39.36;
+	}
+}

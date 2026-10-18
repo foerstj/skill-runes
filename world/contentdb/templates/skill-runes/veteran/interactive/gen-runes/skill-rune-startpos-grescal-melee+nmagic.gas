@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_melee+nmagic_startpos_grescal]
+{
+	specializes = base_skill_rune_melee+nmagic;
+
+	common:screen_name = " Veteran Grescal (Level 80)";
+	[skill_rune]
+	{
+		uber_stat	= 80.00;
+		melee_stat	= 76.53;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 76.53;
+		cmagic_stat	= 0.00;
+		str_stat	= 29.20;
+		dex_stat	= 18.00;
+		int_stat	= 32.80;
+	}
+}

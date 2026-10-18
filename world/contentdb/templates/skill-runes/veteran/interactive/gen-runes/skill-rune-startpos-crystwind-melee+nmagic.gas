@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_melee+nmagic_startpos_crystwind]
+{
+	specializes = base_skill_rune_melee+nmagic;
+
+	common:screen_name = " Veteran Crystwind (Level 56)";
+	[skill_rune]
+	{
+		uber_stat	= 56.00;
+		melee_stat	= 51.31;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 51.31;
+		cmagic_stat	= 0.00;
+		str_stat	= 20.44;
+		dex_stat	= 12.60;
+		int_stat	= 22.96;
+	}
+}

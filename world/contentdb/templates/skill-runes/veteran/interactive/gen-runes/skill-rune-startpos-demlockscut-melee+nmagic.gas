@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_melee+nmagic_startpos_demlockscut]
+{
+	specializes = base_skill_rune_melee+nmagic;
+
+	common:screen_name = " Veteran Demlock's Cut (Level 66)";
+	[skill_rune]
+	{
+		uber_stat	= 66.00;
+		melee_stat	= 61.98;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 61.98;
+		cmagic_stat	= 0.00;
+		str_stat	= 24.09;
+		dex_stat	= 14.85;
+		int_stat	= 27.06;
+	}
+}

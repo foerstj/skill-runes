@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee+nmagic_startpos_fallraen]
+{
+	specializes = base_skill_rune_melee+nmagic;
+
+	common:screen_name = " Elite Fallraen (Level 90)";
+	[skill_rune]
+	{
+		uber_stat	= 90.00;
+		melee_stat	= 86.56;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 86.56;
+		cmagic_stat	= 0.00;
+		str_stat	= 32.85;
+		dex_stat	= 20.25;
+		int_stat	= 36.90;
+	}
+}

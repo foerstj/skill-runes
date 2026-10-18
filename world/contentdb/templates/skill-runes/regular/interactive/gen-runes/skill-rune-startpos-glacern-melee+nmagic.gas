@@ -1,0 +1,17 @@
+[t:template,n:skill_rune_melee+nmagic_startpos_glacern]
+{
+	specializes = base_skill_rune_melee+nmagic;
+
+	common:screen_name = " Glacern (Level 7)";
+	[skill_rune]
+	{
+		uber_stat	= 7.00;
+		melee_stat	= 4.97;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 4.97;
+		cmagic_stat	= 0.00;
+		str_stat	= 2.56;
+		dex_stat	= 1.58;
+		int_stat	= 2.87;
+	}
+}

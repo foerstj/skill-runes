@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee+nmagic_startpos_lang]
+{
+	specializes = base_skill_rune_melee+nmagic;
+
+	common:screen_name = " Elite Lang (Level 99)";
+	[skill_rune]
+	{
+		uber_stat	= 99.00;
+		melee_stat	= 95.56;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 95.56;
+		cmagic_stat	= 0.00;
+		str_stat	= 36.13;
+		dex_stat	= 22.27;
+		int_stat	= 40.59;
+	}
+}

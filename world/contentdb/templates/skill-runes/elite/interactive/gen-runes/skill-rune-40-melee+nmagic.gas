@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee+nmagic_40]
+{
+	specializes = base_skill_rune_melee+nmagic;
+
+	common:screen_name = " Level 100 (Regular 40)";
+	[skill_rune]
+	{
+		uber_stat	= 100.87;
+		melee_stat	= 97.44;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 97.44;
+		cmagic_stat	= 0.00;
+		str_stat	= 36.82;
+		dex_stat	= 22.70;
+		int_stat	= 41.36;
+	}
+}
