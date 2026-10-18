@@ -1,0 +1,100 @@
+[t:template,n:2W_skill_runes_container_melee_startpos]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Skill Runes - Melee - Veteran Start Positions";
+    [inventory]
+    {
+        [other]
+        {
+            il_main = 2W_skill_rune_melee_startpos_elddim;
+            il_main = 2W_skill_rune_melee_startpos_crystwind;
+            il_main = 2W_skill_rune_melee_startpos_fallraen;
+            il_main = 2W_skill_rune_melee_startpos_meren;
+            il_main = 2W_skill_rune_melee_startpos_lang;
+            il_main = 2W_skill_rune_melee_startpos_quillrabe;
+            il_main = 2W_skill_rune_melee_startpos_hiroth;
+            il_main = 2W_skill_rune_melee_startpos_grescal;
+            il_main = 2W_skill_rune_melee_startpos_arhok;
+            il_main = 2W_skill_rune_melee_startpos_illicor;
+            il_main = 2W_skill_rune_melee_startpos_tradercamp;
+            il_main = 2W_skill_rune_melee_startpos_demlockscut;
+            il_main = 2W_skill_rune_melee_startpos_neenersemporium;
+        }
+    }
+}
+[t:template,n:2W_skill_runes_container_ranged_startpos]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Skill Runes - Ranged - Veteran Start Positions";
+    [inventory]
+    {
+        [other]
+        {
+            il_main = 2W_skill_rune_ranged_startpos_elddim;
+            il_main = 2W_skill_rune_ranged_startpos_crystwind;
+            il_main = 2W_skill_rune_ranged_startpos_fallraen;
+            il_main = 2W_skill_rune_ranged_startpos_meren;
+            il_main = 2W_skill_rune_ranged_startpos_lang;
+            il_main = 2W_skill_rune_ranged_startpos_quillrabe;
+            il_main = 2W_skill_rune_ranged_startpos_hiroth;
+            il_main = 2W_skill_rune_ranged_startpos_grescal;
+            il_main = 2W_skill_rune_ranged_startpos_arhok;
+            il_main = 2W_skill_rune_ranged_startpos_illicor;
+            il_main = 2W_skill_rune_ranged_startpos_tradercamp;
+            il_main = 2W_skill_rune_ranged_startpos_demlockscut;
+            il_main = 2W_skill_rune_ranged_startpos_neenersemporium;
+        }
+    }
+}
+[t:template,n:2W_skill_runes_container_nmagic_startpos]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Skill Runes - Nature Magic - Veteran Start Positions";
+    [inventory]
+    {
+        [other]
+        {
+            il_main = 2W_skill_rune_nmagic_startpos_elddim;
+            il_main = 2W_skill_rune_nmagic_startpos_crystwind;
+            il_main = 2W_skill_rune_nmagic_startpos_fallraen;
+            il_main = 2W_skill_rune_nmagic_startpos_meren;
+            il_main = 2W_skill_rune_nmagic_startpos_lang;
+            il_main = 2W_skill_rune_nmagic_startpos_quillrabe;
+            il_main = 2W_skill_rune_nmagic_startpos_hiroth;
+            il_main = 2W_skill_rune_nmagic_startpos_grescal;
+            il_main = 2W_skill_rune_nmagic_startpos_arhok;
+            il_main = 2W_skill_rune_nmagic_startpos_illicor;
+            il_main = 2W_skill_rune_nmagic_startpos_tradercamp;
+            il_main = 2W_skill_rune_nmagic_startpos_demlockscut;
+            il_main = 2W_skill_rune_nmagic_startpos_neenersemporium;
+        }
+    }
+}
+[t:template,n:2W_skill_runes_container_cmagic_startpos]
+{
+    specializes = base_skill_runes_container;
+
+    common:screen_name = "Skill Runes - Combat Magic - Veteran Start Positions";
+    [inventory]
+    {
+        [other]
+        {
+            il_main = 2W_skill_rune_cmagic_startpos_elddim;
+            il_main = 2W_skill_rune_cmagic_startpos_crystwind;
+            il_main = 2W_skill_rune_cmagic_startpos_fallraen;
+            il_main = 2W_skill_rune_cmagic_startpos_meren;
+            il_main = 2W_skill_rune_cmagic_startpos_lang;
+            il_main = 2W_skill_rune_cmagic_startpos_quillrabe;
+            il_main = 2W_skill_rune_cmagic_startpos_hiroth;
+            il_main = 2W_skill_rune_cmagic_startpos_grescal;
+            il_main = 2W_skill_rune_cmagic_startpos_arhok;
+            il_main = 2W_skill_rune_cmagic_startpos_illicor;
+            il_main = 2W_skill_rune_cmagic_startpos_tradercamp;
+            il_main = 2W_skill_rune_cmagic_startpos_demlockscut;
+            il_main = 2W_skill_rune_cmagic_startpos_neenersemporium;
+        }
+    }
+}
