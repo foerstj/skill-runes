@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_melee+nmagic;
 
-	common:screen_name = " Hiroth (Level 46)";
+	common:screen_name = "Melee + Nature Magic Hiroth (Level 46)";
 	[skill_rune]
 	{
 		uber_stat	= 46.00;

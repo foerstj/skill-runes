@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_melee+nmagic;
 
-	common:screen_name = " Jeriah's Cabin (Level 11)";
+	common:screen_name = "Melee + Nature Magic Jeriah's Cabin (Level 11)";
 	[skill_rune]
 	{
 		uber_stat	= 11.00;

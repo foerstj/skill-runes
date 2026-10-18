@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_melee+nmagic;
 
-	common:screen_name = " Illicor (Level 8)";
+	common:screen_name = "Melee + Nature Magic Illicor (Level 8)";
 	[skill_rune]
 	{
 		uber_stat	= 8.00;

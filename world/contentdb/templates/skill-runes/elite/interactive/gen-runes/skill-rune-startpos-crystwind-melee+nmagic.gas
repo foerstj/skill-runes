@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_melee+nmagic;
 
-	common:screen_name = " Elite Crystwind (Level 87)";
+	common:screen_name = "Melee + Nature Magic Elite Crystwind (Level 87)";
 	[skill_rune]
 	{
 		uber_stat	= 87.00;

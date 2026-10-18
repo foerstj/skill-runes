@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_melee+nmagic;
 
-	common:screen_name = " Fortress Kroth (Level 38)";
+	common:screen_name = "Melee + Nature Magic Fortress Kroth (Level 38)";
 	[skill_rune]
 	{
 		uber_stat	= 38.00;

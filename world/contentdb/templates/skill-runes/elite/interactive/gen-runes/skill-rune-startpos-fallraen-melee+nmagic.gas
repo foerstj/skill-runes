@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_melee+nmagic;
 
-	common:screen_name = " Elite Fallraen (Level 90)";
+	common:screen_name = "Melee + Nature Magic Elite Fallraen (Level 90)";
 	[skill_rune]
 	{
 		uber_stat	= 90.00;

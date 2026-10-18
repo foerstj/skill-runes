@@ -1,4 +1,4 @@
-{% set skill_names = {'melee': 'Melee', 'ranged': 'Ranged', 'nmagic': 'Nature Magic', 'cmagic': 'Combat Magic'} %}
+{% set skill_names = {s.skill: s.skill_name for s in skillz} %}
 {% set skill_name = skill_names[skills] %}
 [t:template,n:3W_skill_rune_{{skills}}_startpos_{{slug}}]
 {

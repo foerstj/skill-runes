@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_melee+nmagic;
 
-	common:screen_name = " Temple Ruins (Level 32)";
+	common:screen_name = "Melee + Nature Magic Temple Ruins (Level 32)";
 	[skill_rune]
 	{
 		uber_stat	= 32.00;
