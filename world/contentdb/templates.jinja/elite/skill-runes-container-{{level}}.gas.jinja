@@ -7,10 +7,9 @@
     {
         [other]
         {
-            il_main = 3W_skill_rune_melee_{{level}};
-            il_main = 3W_skill_rune_ranged_{{level}};
-            il_main = 3W_skill_rune_nmagic_{{level}};
-            il_main = 3W_skill_rune_cmagic_{{level}};
+            {% for skill in skills %}
+            il_main = 3W_skill_rune_{{skill.skill}}_{{level}};
+            {% endfor %}
         }
     }
 }

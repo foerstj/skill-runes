@@ -7,10 +7,9 @@
     {
         [other]
         {
-            il_main = 2W_skill_rune_melee_startpos_{{slug}};
-            il_main = 2W_skill_rune_ranged_startpos_{{slug}};
-            il_main = 2W_skill_rune_nmagic_startpos_{{slug}};
-            il_main = 2W_skill_rune_cmagic_startpos_{{slug}};
+            {% for skill in skills %}
+            il_main = 2W_skill_rune_{{skill.skill}}_startpos_{{slug}};
+            {% endfor %}
         }
     }
 }
