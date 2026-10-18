@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_melee+nmagic;
 
-	common:screen_name = "Melee + Nature Magic Dark Swamp (Level 22)";
+	common:screen_name = "Melee + Nature Magic Dark Swamp (Uber Level 22)";
 	[skill_rune]
 	{
 		uber_stat	= 22.00;

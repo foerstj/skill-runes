@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_melee+nmagic;
 
-	common:screen_name = "Melee + Nature Magic Arhok (Level 0)";
+	common:screen_name = "Melee + Nature Magic Arhok (Uber Level 0)";
 	[skill_rune]
 	{
 		uber_stat	= 0.00;

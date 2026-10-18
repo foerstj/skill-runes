@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_melee+nmagic;
 
-	common:screen_name = "Melee + Nature Magic Veteran Neener's Emporium (Level 70)";
+	common:screen_name = "Melee + Nature Magic Veteran Neener's Emporium (Uber Level 70)";
 	[skill_rune]
 	{
 		uber_stat	= 70.00;

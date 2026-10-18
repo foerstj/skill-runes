@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_melee+nmagic;
 
-	common:screen_name = "Melee + Nature Magic Veteran Trader Camp (Level 62)";
+	common:screen_name = "Melee + Nature Magic Veteran Trader Camp (Uber Level 62)";
 	[skill_rune]
 	{
 		uber_stat	= 62.00;

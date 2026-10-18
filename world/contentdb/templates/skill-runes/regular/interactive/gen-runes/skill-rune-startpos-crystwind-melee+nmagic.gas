@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_melee+nmagic;
 
-	common:screen_name = "Melee + Nature Magic Crystwind (Level 5)";
+	common:screen_name = "Melee + Nature Magic Crystwind (Uber Level 5)";
 	[skill_rune]
 	{
 		uber_stat	= 5.00;

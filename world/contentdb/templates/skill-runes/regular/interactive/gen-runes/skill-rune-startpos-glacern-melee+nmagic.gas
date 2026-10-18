@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_melee+nmagic;
 
-	common:screen_name = "Melee + Nature Magic Glacern (Level 7)";
+	common:screen_name = "Melee + Nature Magic Glacern (Uber Level 7)";
 	[skill_rune]
 	{
 		uber_stat	= 7.00;

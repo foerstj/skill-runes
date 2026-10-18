@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_melee+nmagic;
 
-	common:screen_name = "Melee + Nature Magic Quillrabe (Level 42)";
+	common:screen_name = "Melee + Nature Magic Quillrabe (Uber Level 42)";
 	[skill_rune]
 	{
 		uber_stat	= 42.00;

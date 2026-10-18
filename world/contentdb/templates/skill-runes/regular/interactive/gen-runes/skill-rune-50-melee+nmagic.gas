@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_melee+nmagic;
 
-	common:screen_name = "Melee + Nature Magic Level 50";
+	common:screen_name = "Melee + Nature Magic Uber Level 50";
 	[skill_rune]
 	{
 		uber_stat	= 50.00;

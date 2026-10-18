@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_melee+nmagic;
 
-	common:screen_name = "Melee + Nature Magic Veteran Grescal (Level 80)";
+	common:screen_name = "Melee + Nature Magic Veteran Grescal (Uber Level 80)";
 	[skill_rune]
 	{
 		uber_stat	= 80.00;

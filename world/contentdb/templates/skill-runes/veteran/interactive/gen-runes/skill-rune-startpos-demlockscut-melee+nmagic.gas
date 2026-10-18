@@ -2,7 +2,7 @@
 {
 	specializes = base_skill_rune_melee+nmagic;
 
-	common:screen_name = "Melee + Nature Magic Veteran Demlock's Cut (Level 66)";
+	common:screen_name = "Melee + Nature Magic Veteran Demlock's Cut (Uber Level 66)";
 	[skill_rune]
 	{
 		uber_stat	= 66.00;

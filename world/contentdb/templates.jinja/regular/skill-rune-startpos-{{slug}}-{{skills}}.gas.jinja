@@ -1,10 +1,11 @@
 {% set skill_names = {s.skill: s.skill_name for s in skillz} %}
 {% set skill_name = skill_names[skills] %}
+{% set is_multiclass = '+' in skills %}
 [t:template,n:skill_rune_{{skills}}_startpos_{{slug}}]
 {
 	specializes = base_skill_rune_{{skills}};
 
-	common:screen_name = "{{skill_name}} {{startpos}} (Level {{level}})";
+	common:screen_name = "{{skill_name}} {{startpos}} ({% if is_multiclass %}Uber {% endif %}Level {{level}})";
 	[skill_rune]
 	{
 		uber_stat	= {{'%0.2f' % uber}};
