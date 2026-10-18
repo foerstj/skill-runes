@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_nmagic_startpos_demlockscut]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Elite Demlock's Cut (Level 95)";
+	[skill_rune]
+	{
+		uber_stat	= 95.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 95.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 8.55;
+		dex_stat	= 17.10;
+		int_stat	= 69.35;
+	}
+}

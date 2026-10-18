@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_cmagic_startpos_arhok]
+{
+	specializes = base_skill_rune_cmagic;
+
+	common:screen_name = "Combat Magic Elite Arhok (Level 83)";
+	[skill_rune]
+	{
+		uber_stat	= 83.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 83.00;
+		str_stat	= 10.79;
+		dex_stat	= 14.11;
+		int_stat	= 58.10;
+	}
+}

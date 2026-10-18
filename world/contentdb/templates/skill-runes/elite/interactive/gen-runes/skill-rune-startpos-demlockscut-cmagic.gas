@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_cmagic_startpos_demlockscut]
+{
+	specializes = base_skill_rune_cmagic;
+
+	common:screen_name = "Combat Magic Elite Demlock's Cut (Level 95)";
+	[skill_rune]
+	{
+		uber_stat	= 95.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 95.00;
+		str_stat	= 12.35;
+		dex_stat	= 16.15;
+		int_stat	= 66.50;
+	}
+}

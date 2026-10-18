@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_ranged_startpos_hiroth]
+{
+	specializes = base_skill_rune_ranged;
+
+	common:screen_name = "Ranged Elite Hiroth (Level 105)";
+	[skill_rune]
+	{
+		uber_stat	= 105.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 105.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 26.25;
+		dex_stat	= 65.10;
+		int_stat	= 13.65;
+	}
+}

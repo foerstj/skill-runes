@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_nmagic_startpos_meren]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Elite Meren (Level 96)";
+	[skill_rune]
+	{
+		uber_stat	= 96.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 96.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 8.64;
+		dex_stat	= 17.28;
+		int_stat	= 70.08;
+	}
+}

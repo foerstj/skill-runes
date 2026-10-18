@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_nmagic_startpos_meren]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Veteran Meren (Level 64)";
+	[skill_rune]
+	{
+		uber_stat	= 64.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 64.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 5.76;
+		dex_stat	= 11.52;
+		int_stat	= 46.72;
+	}
+}

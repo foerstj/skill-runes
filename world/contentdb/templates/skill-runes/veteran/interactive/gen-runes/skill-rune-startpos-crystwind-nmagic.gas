@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_nmagic_startpos_crystwind]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Veteran Crystwind (Level 56)";
+	[skill_rune]
+	{
+		uber_stat	= 56.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 56.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 5.04;
+		dex_stat	= 10.08;
+		int_stat	= 40.88;
+	}
+}

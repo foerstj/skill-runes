@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_cmagic_startpos_fallraen]
+{
+	specializes = base_skill_rune_cmagic;
+
+	common:screen_name = "Combat Magic Veteran Fallraen (Level 59)";
+	[skill_rune]
+	{
+		uber_stat	= 59.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 59.00;
+		str_stat	= 7.67;
+		dex_stat	= 10.03;
+		int_stat	= 41.30;
+	}
+}

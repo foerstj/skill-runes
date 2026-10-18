@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_cmagic_startpos_lang]
+{
+	specializes = base_skill_rune_cmagic;
+
+	common:screen_name = "Combat Magic Veteran Lang (Level 68)";
+	[skill_rune]
+	{
+		uber_stat	= 68.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 68.00;
+		str_stat	= 8.84;
+		dex_stat	= 11.56;
+		int_stat	= 47.60;
+	}
+}

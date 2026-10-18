@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee_startpos_hiroth]
+{
+	specializes = base_skill_rune_melee;
+
+	common:screen_name = "Melee Elite Hiroth (Level 105)";
+	[skill_rune]
+	{
+		uber_stat	= 105.00;
+		melee_stat	= 105.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 67.20;
+		dex_stat	= 28.35;
+		int_stat	= 9.45;
+	}
+}

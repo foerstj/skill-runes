@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_melee_startpos_neenersemporium]
+{
+	specializes = base_skill_rune_melee;
+
+	common:screen_name = "Melee Elite Neener's Emporium (Level 99)";
+	[skill_rune]
+	{
+		uber_stat	= 99.00;
+		melee_stat	= 99.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 63.36;
+		dex_stat	= 26.73;
+		int_stat	= 8.91;
+	}
+}

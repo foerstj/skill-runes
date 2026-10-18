@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_cmagic_startpos_meren]
+{
+	specializes = base_skill_rune_cmagic;
+
+	common:screen_name = "Combat Magic Veteran Meren (Level 64)";
+	[skill_rune]
+	{
+		uber_stat	= 64.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 64.00;
+		str_stat	= 8.32;
+		dex_stat	= 10.88;
+		int_stat	= 44.80;
+	}
+}

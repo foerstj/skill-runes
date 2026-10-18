@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_nmagic_startpos_quillrabe]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Elite Quillrabe (Level 103)";
+	[skill_rune]
+	{
+		uber_stat	= 103.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 103.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 9.27;
+		dex_stat	= 18.54;
+		int_stat	= 75.19;
+	}
+}

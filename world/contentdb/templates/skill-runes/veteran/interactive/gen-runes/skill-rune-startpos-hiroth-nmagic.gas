@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_nmagic_startpos_hiroth]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Veteran Hiroth (Level 79)";
+	[skill_rune]
+	{
+		uber_stat	= 79.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 79.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 7.11;
+		dex_stat	= 14.22;
+		int_stat	= 57.67;
+	}
+}

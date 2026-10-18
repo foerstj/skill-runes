@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_nmagic_startpos_demlockscut]
+{
+	specializes = base_skill_rune_nmagic;
+
+	common:screen_name = "Nature Magic Veteran Demlock's Cut (Level 66)";
+	[skill_rune]
+	{
+		uber_stat	= 66.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 66.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 5.94;
+		dex_stat	= 11.88;
+		int_stat	= 48.18;
+	}
+}

@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_melee_startpos_quillrabe]
+{
+	specializes = base_skill_rune_melee;
+
+	common:screen_name = "Melee Veteran Quillrabe (Level 77)";
+	[skill_rune]
+	{
+		uber_stat	= 77.00;
+		melee_stat	= 77.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 49.28;
+		dex_stat	= 20.79;
+		int_stat	= 6.93;
+	}
+}

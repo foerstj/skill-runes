@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_cmagic_startpos_neenersemporium]
+{
+	specializes = base_skill_rune_cmagic;
+
+	common:screen_name = "Combat Magic Elite Neener's Emporium (Level 99)";
+	[skill_rune]
+	{
+		uber_stat	= 99.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 0.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 99.00;
+		str_stat	= 12.87;
+		dex_stat	= 16.83;
+		int_stat	= 69.30;
+	}
+}

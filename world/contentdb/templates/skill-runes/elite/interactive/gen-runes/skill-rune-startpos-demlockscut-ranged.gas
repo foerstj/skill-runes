@@ -1,0 +1,17 @@
+[t:template,n:3W_skill_rune_ranged_startpos_demlockscut]
+{
+	specializes = base_skill_rune_ranged;
+
+	common:screen_name = "Ranged Elite Demlock's Cut (Level 95)";
+	[skill_rune]
+	{
+		uber_stat	= 95.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 95.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 23.75;
+		dex_stat	= 58.90;
+		int_stat	= 12.35;
+	}
+}

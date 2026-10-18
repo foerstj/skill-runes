@@ -1,0 +1,17 @@
+[t:template,n:2W_skill_rune_ranged_startpos_crystwind]
+{
+	specializes = base_skill_rune_ranged;
+
+	common:screen_name = "Ranged Veteran Crystwind (Level 56)";
+	[skill_rune]
+	{
+		uber_stat	= 56.00;
+		melee_stat	= 0.00;
+		ranged_stat	= 56.00;
+		nmagic_stat	= 0.00;
+		cmagic_stat	= 0.00;
+		str_stat	= 14.00;
+		dex_stat	= 34.72;
+		int_stat	= 7.28;
+	}
+}
